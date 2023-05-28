@@ -26,23 +26,100 @@ window.addEventListener('load', function(){
             });
         }
     }
+    class SoundController {
+        constructor(){
+            this.powerUpSound = document.getElementById('powerup');
+            this.powerDownSound = document.getElementById('powerdown');
+            this.explosionSound = document.getElementById('explosion');
+            this.shotSound = document.getElementById('shot');
+            this.hitSound = document.getElementById('hit');
+            this.shieldSound = document.getElementById('shieldSound');
+        }
+        powerUp(){
+            this.powerUpSound.currentTime = 0;
+            this.powerUpSound.play();
+        }
+        powerDown(){
+            this.powerDownSound.currentTime = 0;
+            this.powerDownSound.play();
+        }
+        explosion(){
+            this.explosionSound.currentTime = 0;
+            this.explosionSound.play();
+        }
+        shot(){
+            this.shotSound.currentTime = 0;
+            this.shotSound.play();
+        }
+        hit(){
+            this.hitSound.currentTime = 0;
+            this.hitSound.play();
+        }
+        shield(){
+            this.shieldSound.currentTime = 0;
+            this.shieldSound.play();
+        }
+    }
+    class Shield {
+        constructor(game){
+            this.game = game;
+            this.width = this.game.player.width;
+            this.height = this.game.player.height;
+            this.frameX = 0;
+            this.maxFrame = 24;
+            this.image = document.getElementById('shieldImg');
+            this.fps = 60;
+            this.timer = 0;
+            this.interval = 1000/this.fps;
+        }
+        update(deltaTime){
+            if (this.frameX <= this.maxFrame) {
+                if (this.timer > this.interval){
+                    this.frameX++;
+                    this.timer = 0;
+                } else {
+                    this.timer += deltaTime;
+                }
+
+            }
+        }
+        draw(context){
+            context.drawImage(this.image, this.frameX * this.width, 0, this.width, this.height, this.game.player.x, this.game.player.y, this.width, this.height);
+        }
+        reset(){
+            this.frameX = 0;
+            this.game.sound.shield();
+        }
+    }
     class Projectile {
         constructor(game, x, y){
             this.game = game;
             this.x = x;
             this.y = y;
-            this.width = 10;
-            this.height = 3;
-            this.speed = 3;
+            this.width = 36.25;
+            this.height = 20;
+            this.speed = Math.random() * 0.2 +2.8;
             this.markedForDeletion = false;
-            this.image = document.getElementById('projectile');
+            this.image = document.getElementById('fireball');
+            this.frameX = 0;
+            this.maxFrame = 3;
+            this.fps = 20;
+            this.timer = 0;
+            this.interval = 1000/20;
         }
-        update(){
+        update(deltaTime){
             this.x += this.speed;
+            if (this.timer > this.interval){
+                if (this.frameX < this.maxFrame) this.frameX++;
+                else this.frameX = 0;
+                this.timer = 0;
+            } else {
+                this.timer += deltaTime;
+            }
             if (this.x > this.game.width * 0.8) this.markedForDeletion = true;
         }
         draw(context){
-            context.drawImage(this.image, this.x, this.y);
+            context.drawImage(this.image, this.frameX * this.width, 0, this.width, this.height, this.x, this.y, this.width, this.height);
         }
     }
     class Particle {
@@ -112,7 +189,7 @@ window.addEventListener('load', function(){
             else if (this.y < -this.height * 0.5) this.y = -this.height* 0.5
             // handle projectiles
             this.projectiles.forEach(projectile => {
-                projectile.update();
+                projectile.update(deltaTime);
             });
             this.projectiles = this.projectiles.filter(projectile => !projectile.markedForDeletion);
             // sprite animation
@@ -126,7 +203,8 @@ window.addEventListener('load', function(){
                 if (this.powerUpTimer > this.powerUpLimit){
                     this.powerUpTimer = 0;
                     this.powerUp = false;
-                    this.frameY = 0;               
+                    this.frameY = 0;
+                    this.game.sound.powerDown();
                 } else {
                     this.powerUpTimer += deltaTime;
                     this.frameY = 1;
@@ -146,6 +224,7 @@ window.addEventListener('load', function(){
                 this.projectiles.push(new Projectile(this.game, this.x + 80, this.y + 30));
                 this.game.ammo--;
             }
+            this.game.sound.shot()
             if (this.powerUp) this.shootBottom();
         }
         shootBottom(){
@@ -158,6 +237,7 @@ window.addEventListener('load', function(){
             this.powerUpTimer = 0;
             this.powerUp = true;
             if (this.game.ammo < this.game.maxAmmo) this.game.ammo = this.game.maxAmmo
+            this.game.sound.powerUp()
         }
     }
     class Enemy {
@@ -277,11 +357,39 @@ window.addEventListener('load', function(){
             this.height = 240;
             this.y = Math.random() * (this.game.height * 0.95 - this.height);
             this.image = document.getElementById('moonfish');
-            this.frameY  = Math.floor(Math.random() *2);
+            this.frameY  = 0;
             this.lives = 8;
             this.score = this.lives
             this.speedX = Math.random() * -1.2 - 2
             this.type = 'moon'
+        }
+    }
+    class Stalker extends Enemy {
+        constructor(game){
+            super(game);
+            this.width = 243;
+            this.height = 123;
+            this.y = Math.random() * (this.game.height * 0.95 - this.height);
+            this.image = document.getElementById('stalker');
+            this.frameY  = 0;
+            this.lives = 7;
+            this.score = this.lives
+            this.speedX = Math.random() * -1 - 1;
+            this.type = 'stalker'
+        }
+    }
+    class  Razorfin extends Enemy {
+        constructor(game){
+            super(game);
+            this.width = 187;
+            this.height = 149;
+            this.y = Math.random() * (this.game.height * 0.95 - this.height);
+            this.image = document.getElementById('razorfin');
+            this.frameY  = 0;
+            this.lives = 5;
+            this.score = this.lives
+            this.speedX = Math.random() * -1 - 1;
+            this.type = 'razorfin'
         }
     }
 
@@ -400,7 +508,7 @@ window.addEventListener('load', function(){
                     message1 = 'Most Wondrous!';
                     message2 = 'Well done explorer!';
                 } else {
-                    message1 = 'Daggit! You lose!!';
+                    message1 = 'Danggit! You lose!!';
                     message2 = 'Get my repair kit and try again!';
                 }
                 context.font = '70px ' + this.fontFamily;
@@ -425,6 +533,8 @@ window.addEventListener('load', function(){
             this.player = new Player(this);
             this.input = new InputHandler(this);
             this.ui = new UI(this);
+            this.sound = new SoundController();
+            this.shield = new Shield(this);
             this.keys = [];
             this.enemies = [];
             this.particles = [];
@@ -445,16 +555,18 @@ window.addEventListener('load', function(){
         }
         update(deltaTime){
             if (!this.gameOver) this.gameTime += deltaTime;
-            if (this.gameTime > this.timeLimit) this.gameOver= true;
+            if (this.gameTime > this.timeLimit) this.gameOver = true;
             this.background.update();
-            this.background.layer4.update()
+            this.background.layer4.update();
             this.player.update(deltaTime);
-            if (this.ammoTimer > this.ammoInterval) {
+            if (this.ammoTimer > this.ammoInterval){
                 if (this.ammo < this.maxAmmo) this.ammo++;
                 this.ammoTimer = 0;
             } else {
                 this.ammoTimer += deltaTime;
             }
+            //shield
+            this.shield.update(deltaTime);
             //particles 
             this.particles.forEach(particle => particle.update());
             this.particles = this.particles.filter(particle => !particle.markedForDeletion);
@@ -467,8 +579,10 @@ window.addEventListener('load', function(){
                 if (this.checkCollision(this.player, enemy)){
                     enemy.markedForDeletion = true;
                     this.addExplosion(enemy);
+                    this.sound.hit();
+                    this.shield.reset();
                     for (let i = 0; i < enemy.score; i++){
-                        this.particles.push(new Particle(this, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5))
+                        this.particles.push(new Particle(this, enemy.x + enemy.width * 0.5, enemy.y + enemy.height * 0.5));
                     }
                     if (enemy.type === 'lucky') this.player.enterPowerUp();
                     else if (!this.gameOver) this.score--;
@@ -484,6 +598,7 @@ window.addEventListener('load', function(){
                             }
                             enemy.markedForDeletion = true;
                             this.addExplosion(enemy)
+                            this.sound.explosion();
                             if (enemy.type === 'moon') this.player.enterPowerUp();
                             if (enemy.type === 'hive'){
                                 for (let i = 0; i < 5; i++){
@@ -507,10 +622,11 @@ window.addEventListener('load', function(){
             }
         }
         draw(context){
-            //draw everything in the game through its classes draw method
+            //draw everything
             this.background.draw(context);
+            this.ui.draw(context);
             this.player.draw(context);
-            this.ui.draw(context)
+            this.shield.draw(context);
             this.particles.forEach(particle => particle.draw(context));
             this.enemies.forEach(enemy => {
                 enemy.draw(context);
@@ -518,11 +634,13 @@ window.addEventListener('load', function(){
             this.explosions.forEach(explosion => {
                 explosion.draw(context);
             });
-            this.background.layer4.draw(context)
+            this.background.layer4.draw(context);
         }
         addEnemy(){
             const randomize = Math.random();
-            if (randomize < 0.3) this.enemies.push(new Angler1(this));
+            if (randomize < 0.1) this.enemies.push(new Angler1(this));
+            else if (randomize < 0.3) this.enemies.push(new Stalker(this));
+            else if (randomize < 0.5) this.enemies.push(new Razorfin(this));
             else if (randomize < 0.6) this.enemies.push(new Angler2(this));
             else if (randomize < 0.7) this.enemies.push(new HiveWhale(this));
             else if (randomize < 0.8) this.enemies.push(new BulbWhale(this));
@@ -551,12 +669,11 @@ window.addEventListener('load', function(){
     function animate(timeStamp){
         const deltaTime = timeStamp - lastTime;
         lastTime = timeStamp;
-        ctx.clearRect(0,0, canvas.width, canvas.height)
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         game.draw(ctx);
         game.update(deltaTime);
         requestAnimationFrame(animate);
     }
     animate(0);
-
 });
 
