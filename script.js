@@ -34,6 +34,10 @@ window.addEventListener('load', function(){
             this.shotSound = document.getElementById('shot');
             this.hitSound = document.getElementById('hit');
             this.shieldSound = document.getElementById('shieldSound');
+            this.backgroundSound = document.getElementById('backgroundSound');
+        }
+        playBackgroundSound() {
+            this.backgroundSound.play();
         }
         powerUp(){
             this.powerUpSound.currentTime = 0;
@@ -547,13 +551,14 @@ window.addEventListener('load', function(){
             this.ammoInterval = 350;
             this.gameOver = false;
             this.score = 0;
-            this.winningScore = 100;
+            this.winningScore = 500;
             this.gameTime = 0;
-            this.timeLimit = 30000;
+            this.timeLimit = 60000;
             this.speed = 1
             this.debug = false;
         }
         update(deltaTime){
+            this.sound.playBackgroundSound()
             if (!this.gameOver) this.gameTime += deltaTime;
             if (this.gameTime > this.timeLimit) this.gameOver = true;
             this.background.update();
