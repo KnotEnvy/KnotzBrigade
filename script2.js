@@ -285,7 +285,6 @@ window.addEventListener('load', function(){
         }
     }
     
-    // ... (SoundController, Shield, Projectile, Particle classes are unchanged)
     class SoundController {
         constructor(){
             this.powerUpSound = document.getElementById('powerup');
@@ -525,7 +524,6 @@ window.addEventListener('load', function(){
         }
     }
     
-    // ... (Enemy classes are unchanged)
     class Enemy {
         constructor(game){
             this.game = game;
@@ -542,12 +540,11 @@ window.addEventListener('load', function(){
         update(deltaTime){
             this.x += this.speedX - this.game.speed;
             if (this.x + this.width < 0) this.markedForDeletion = true;
-            //sprite animation
+            
             if (this.frameX < this.maxFrame){
                 this.frameX++;
             } else this.frameX = 0;
 
-            // Handle hit flash
             if (this.isFlashing) {
                 this.flashTimer += deltaTime;
                 if (this.flashTimer > this.flashInterval) {
@@ -560,7 +557,7 @@ window.addEventListener('load', function(){
             if (this.game.debug) context.strokeRect(this.x, this.y, this.width, this.height);
             
             context.save();
-            // Apply hit flash effect
+            
             if (this.isFlashing) {
                 context.globalCompositeOperation = 'lighter';
             }
@@ -699,7 +696,6 @@ window.addEventListener('load', function(){
             this.type = 'razorfin'
         }
     }
-    // ... (Layer, Background, Explosion classes are unchanged)
     class Layer {
         constructor(game, image, speedModifier){
             this.game = game;
@@ -884,7 +880,7 @@ window.addEventListener('load', function(){
             this.sound = new SoundController();
             this.shield = new Shield(this);
             this.camera = new Camera(this);
-            this.stats = new Stats(this); // New Stats handler
+            this.stats = new Stats(this);
             this.keys = [];
             this.enemies = [];
             this.particles = [];
@@ -977,7 +973,7 @@ window.addEventListener('load', function(){
             return (    rect1.x < rect2.x + rect2.width &&
                         rect1.x + rect1.width > rect2.x &&
                         rect1.y < rect2.y + rect2.height &&
-                        rect1.height + rect.y > rect2.y)
+                        rect1.height + rect1.y > rect2.y)
         }
     }
 
