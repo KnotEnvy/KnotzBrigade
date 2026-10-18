@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "production boots under /mission/ with optional fonts blocked and no dev hook",
+    "launch, input, pause, quality resize and resume work",
+    "missing critical atlas gives a visible error and disables launch",
+    "unsupported WebGL is explained and launch disabled"
+  ],
+  "errors": [],
+  "failed": []
+}

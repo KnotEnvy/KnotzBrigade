@@ -1,0 +1,6 @@
+**/node_modules/
+remake/dist/
+remake/public/assets/legacy/
+remake/public/assets/score/
+*.local
+*.log

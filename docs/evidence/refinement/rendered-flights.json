@@ -1,0 +1,590 @@
+{
+  "runs": [
+    {
+      "name": "desktop-auto",
+      "done": true,
+      "segments": {
+        "0:waves:normal": {
+          "frames": 1983,
+          "meanMs": 23.072213817457328,
+          "medianMs": 23.299999982118607,
+          "p95Ms": 25.099999994039536,
+          "p99Ms": 31.5,
+          "worstMs": 94.90000000596046,
+          "over33ms": 13
+        },
+        "1:waves:normal": {
+          "frames": 1565,
+          "meanMs": 23.320319488806465,
+          "medianMs": 23.5,
+          "p95Ms": 25.19999998807907,
+          "p99Ms": 26.30000001192093,
+          "worstMs": 46.89999997615814,
+          "over33ms": 2
+        },
+        "1:hivewhale:normal": {
+          "frames": 735,
+          "meanMs": 23.35496598636212,
+          "medianMs": 23.5,
+          "p95Ms": 25,
+          "p99Ms": 25.899999976158142,
+          "worstMs": 40.5,
+          "over33ms": 2
+        },
+        "1:hivewhale:overload": {
+          "frames": 332,
+          "meanMs": 23.590662650674222,
+          "medianMs": 23.5,
+          "p95Ms": 25.600000023841858,
+          "p99Ms": 39.70000001788139,
+          "worstMs": 43.80000001192093,
+          "over33ms": 6
+        },
+        "2:waves:normal": {
+          "frames": 2673,
+          "meanMs": 16.831649831660982,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.19999998807907,
+          "p99Ms": 25.200000017881393,
+          "worstMs": 95,
+          "over33ms": 6
+        },
+        "2:bulbwhale:normal": {
+          "frames": 1035,
+          "meanMs": 16.682318840568193,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.299999982118607,
+          "p99Ms": 22.19999998807907,
+          "worstMs": 27.900000005960464,
+          "over33ms": 0
+        },
+        "2:bulbwhale:overload": {
+          "frames": 1459,
+          "meanMs": 18.089102124742976,
+          "medianMs": 17.099999994039536,
+          "p95Ms": 26.599999994039536,
+          "p99Ms": 34.400000005960464,
+          "worstMs": 47.099999994039536,
+          "over33ms": 18
+        }
+      },
+      "phases": [
+        {
+          "phase": "0:waves:normal",
+          "at": 0.009400000005960465,
+          "mission": 0.04999333333333332,
+          "hull": 6
+        },
+        {
+          "phase": "1:waves:normal",
+          "at": 45.77459999999404,
+          "mission": 45.51084333333385,
+          "hull": 6
+        },
+        {
+          "phase": "1:hivewhale:normal",
+          "at": 79.79030000001192,
+          "mission": 79.52444333333509,
+          "hull": 6
+        },
+        {
+          "phase": "1:hivewhale:overload",
+          "at": 96.95340000000596,
+          "mission": 96.68879333333656,
+          "hull": 5
+        },
+        {
+          "phase": "1:waves:normal",
+          "at": 104.7895,
+          "mission": 104.52181333333716,
+          "hull": 6
+        },
+        {
+          "phase": "2:waves:normal",
+          "at": 107.271,
+          "mission": 107.00171333333739,
+          "hull": 6
+        },
+        {
+          "phase": "2:bulbwhale:normal",
+          "at": 152.23680000001193,
+          "mission": 152.00823333334623,
+          "hull": 5
+        },
+        {
+          "phase": "2:bulbwhale:overload",
+          "at": 169.5022000000179,
+          "mission": 169.27420333334982,
+          "hull": 5
+        },
+        {
+          "phase": "2:waves:normal",
+          "at": 195.89570000001788,
+          "mission": 195.6564833333517,
+          "hull": 5
+        }
+      ],
+      "music": [
+        {
+          "theme": "breakwater:normal",
+          "at": 0.009400000005960465,
+          "transport": 0.029024943310659523
+        },
+        {
+          "theme": "convoy:normal",
+          "at": 47.14970000001788,
+          "transport": 47.16843537414965
+        },
+        {
+          "theme": "brood:normal",
+          "at": 81.4295,
+          "transport": 81.44979591836733
+        },
+        {
+          "theme": "brood:overload",
+          "at": 96.95340000000596,
+          "transport": 96.96943310657595
+        },
+        {
+          "theme": "brood:normal",
+          "at": 107.271,
+          "transport": 107.29070294784579
+        },
+        {
+          "theme": "foundry:normal",
+          "at": 109.27080000001192,
+          "transport": 109.2905215419501
+        },
+        {
+          "theme": "warden:normal",
+          "at": 154.26930000001192,
+          "transport": 154.29079365079366
+        },
+        {
+          "theme": "warden:overload",
+          "at": 169.5022000000179,
+          "transport": 169.5201814058957
+        }
+      ],
+      "quality": [
+        {
+          "at": 0,
+          "width": 960
+        },
+        {
+          "at": 108.28920000001789,
+          "width": 640,
+          "worldWidth": 1120
+        }
+      ],
+      "result": {
+        "completed": true,
+        "practice": false,
+        "record": true,
+        "previous": 0,
+        "stage": 2,
+        "difficulty": "pilot",
+        "from": 0,
+        "relayTarget": 3,
+        "weapon": "lance",
+        "rank": "S",
+        "stats": {
+          "score": 75545,
+          "kills": 116,
+          "fired": 4380,
+          "hit": 1881,
+          "absorbed": 14,
+          "grazes": 1,
+          "damage": 2,
+          "maxChain": 25,
+          "couriers": 3,
+          "guards": 14,
+          "surges": 7,
+          "elapsed": 195.6564833333517
+        },
+        "sectors": [
+          {
+            "stage": 0,
+            "score": 13150,
+            "damage": 0,
+            "relays": 1,
+            "catches": 0,
+            "chain": 25,
+            "elapsed": 43.00759333333387,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          },
+          {
+            "stage": 1,
+            "score": 19660,
+            "damage": 1,
+            "relays": 1,
+            "catches": 6,
+            "chain": 23,
+            "elapsed": 58.985970000003306,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          },
+          {
+            "stage": 2,
+            "score": 42735,
+            "damage": 1,
+            "relays": 1,
+            "catches": 8,
+            "chain": 22,
+            "elapsed": 88.65477000001431,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          }
+        ]
+      },
+      "completed": true,
+      "stats": {
+        "score": 75545,
+        "kills": 116,
+        "fired": 4380,
+        "hit": 1881,
+        "absorbed": 14,
+        "grazes": 1,
+        "damage": 2,
+        "maxChain": 25,
+        "couriers": 3,
+        "guards": 14,
+        "surges": 7,
+        "elapsed": 195.6564833333517
+      },
+      "attacks": [
+        "brood:volley",
+        "brood:release",
+        "brood:charge",
+        "brood:volley",
+        "brood:phase2",
+        "brood:release",
+        "brood:charge",
+        "warden:conduits",
+        "warden:curtain",
+        "warden:core-open",
+        "warden:mines",
+        "warden:vents",
+        "warden:conduits",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:phase2",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents"
+      ],
+      "realSeconds": 195.89570000001788,
+      "frames": {
+        "frames": 9782,
+        "meanMs": 20.026139848703526,
+        "medianMs": 19.200000017881393,
+        "p95Ms": 24.900000005960464,
+        "p99Ms": 29.5,
+        "worstMs": 95,
+        "over33ms": 47
+      }
+    },
+    {
+      "name": "touch-landscape-auto",
+      "done": true,
+      "segments": {
+        "0:waves:normal": {
+          "frames": 2726,
+          "meanMs": 16.696148202490125,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.30000001192093,
+          "p99Ms": 23.599999994039536,
+          "worstMs": 49.10000002384186,
+          "over33ms": 2
+        },
+        "1:waves:normal": {
+          "frames": 2191,
+          "meanMs": 16.665540848935592,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.200000017881393,
+          "p99Ms": 18.5,
+          "worstMs": 27.80000001192093,
+          "over33ms": 0
+        },
+        "1:hivewhale:normal": {
+          "frames": 845,
+          "meanMs": 16.666508875725537,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.100000023841858,
+          "p99Ms": 17.400000005960464,
+          "worstMs": 26.5,
+          "over33ms": 0
+        },
+        "1:hivewhale:overload": {
+          "frames": 699,
+          "meanMs": 16.785121602306038,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.5,
+          "p99Ms": 28.69999998807907,
+          "worstMs": 36.79999998211861,
+          "over33ms": 2
+        },
+        "2:waves:normal": {
+          "frames": 2702,
+          "meanMs": 16.666506291627,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.100000023841858,
+          "p99Ms": 17.400000005960464,
+          "worstMs": 20.5,
+          "over33ms": 0
+        },
+        "2:bulbwhale:normal": {
+          "frames": 972,
+          "meanMs": 16.683230452699426,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.19999998807907,
+          "p99Ms": 18.599999994039536,
+          "worstMs": 30.200000017881393,
+          "over33ms": 0
+        },
+        "2:bulbwhale:overload": {
+          "frames": 687,
+          "meanMs": 16.6663755458255,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.100000023841858,
+          "p99Ms": 17.5,
+          "worstMs": 18.19999998807907,
+          "over33ms": 0
+        }
+      },
+      "phases": [
+        {
+          "phase": "0:waves:normal",
+          "at": 0.027799999982118608,
+          "mission": 0.04998000000000001,
+          "hull": 6
+        },
+        {
+          "phase": "1:waves:normal",
+          "at": 45.53240000000596,
+          "mission": 45.528699999999944,
+          "hull": 6
+        },
+        {
+          "phase": "1:hivewhale:normal",
+          "at": 79.54719999998808,
+          "mission": 79.54398000000232,
+          "hull": 6
+        },
+        {
+          "phase": "1:hivewhale:overload",
+          "at": 93.62829999998212,
+          "mission": 93.62675000000479,
+          "hull": 6
+        },
+        {
+          "phase": "1:waves:normal",
+          "at": 105.36259999999405,
+          "mission": 105.35961000000687,
+          "hull": 6
+        },
+        {
+          "phase": "2:waves:normal",
+          "at": 107.861,
+          "mission": 107.85952000000728,
+          "hull": 6
+        },
+        {
+          "phase": "2:bulbwhale:normal",
+          "at": 152.87659999999403,
+          "mission": 152.87439000001635,
+          "hull": 5
+        },
+        {
+          "phase": "2:bulbwhale:overload",
+          "at": 169.09179999998213,
+          "mission": 169.09042000001972,
+          "hull": 5
+        },
+        {
+          "phase": "2:waves:normal",
+          "at": 180.5426999999881,
+          "mission": 180.52328000002217,
+          "hull": 4
+        }
+      ],
+      "music": [
+        {
+          "theme": "breakwater:normal",
+          "at": 0.027799999982118608,
+          "transport": 0.049342403628116926
+        },
+        {
+          "theme": "convoy:normal",
+          "at": 47.13019999998808,
+          "transport": 47.15972789115697
+        },
+        {
+          "theme": "brood:normal",
+          "at": 81.412,
+          "transport": 81.4381859410436
+        },
+        {
+          "theme": "brood:overload",
+          "at": 93.62829999998212,
+          "transport": 93.64897959183725
+        },
+        {
+          "theme": "brood:normal",
+          "at": 107.861,
+          "transport": 107.88861678004587
+        },
+        {
+          "theme": "foundry:normal",
+          "at": 109.26059999999404,
+          "transport": 109.28761904761956
+        },
+        {
+          "theme": "warden:normal",
+          "at": 154.27559999999403,
+          "transport": 154.29950113378734
+        },
+        {
+          "theme": "warden:overload",
+          "at": 169.09179999998213,
+          "transport": 169.1196371882091
+        }
+      ],
+      "quality": [
+        {
+          "at": 0,
+          "width": 640
+        }
+      ],
+      "result": {
+        "completed": true,
+        "practice": false,
+        "record": true,
+        "previous": 0,
+        "stage": 2,
+        "difficulty": "pilot",
+        "from": 0,
+        "relayTarget": 3,
+        "weapon": "lance",
+        "rank": "S",
+        "stats": {
+          "score": 78965,
+          "kills": 112,
+          "fired": 4225,
+          "hit": 1698,
+          "absorbed": 11,
+          "grazes": 1,
+          "damage": 2,
+          "maxChain": 29,
+          "couriers": 3,
+          "guards": 9,
+          "surges": 7,
+          "elapsed": 180.52328000002217
+        },
+        "sectors": [
+          {
+            "stage": 0,
+            "score": 15190,
+            "damage": 0,
+            "relays": 1,
+            "catches": 0,
+            "chain": 29,
+            "elapsed": 43.01214000000004,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          },
+          {
+            "stage": 1,
+            "score": 27765,
+            "damage": 0,
+            "relays": 1,
+            "catches": 8,
+            "chain": 18,
+            "elapsed": 59.81425000000692,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          },
+          {
+            "stage": 2,
+            "score": 36010,
+            "damage": 2,
+            "relays": 1,
+            "catches": 3,
+            "chain": 26,
+            "elapsed": 72.66376000001489,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          }
+        ]
+      },
+      "completed": true,
+      "stats": {
+        "score": 78965,
+        "kills": 112,
+        "fired": 4225,
+        "hit": 1698,
+        "absorbed": 11,
+        "grazes": 1,
+        "damage": 2,
+        "maxChain": 29,
+        "couriers": 3,
+        "guards": 9,
+        "surges": 7,
+        "elapsed": 180.52328000002217
+      },
+      "attacks": [
+        "brood:volley",
+        "brood:release",
+        "brood:charge",
+        "brood:phase2",
+        "brood:volley",
+        "brood:release",
+        "brood:charge",
+        "brood:volley",
+        "warden:conduits",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:phase2",
+        "warden:mines",
+        "warden:conduits",
+        "warden:core-open",
+        "warden:vents",
+        "warden:curtain"
+      ],
+      "realSeconds": 180.5426999999881,
+      "frames": {
+        "frames": 10822,
+        "meanMs": 16.68293291443246,
+        "medianMs": 16.69999998807907,
+        "p95Ms": 17.19999998807907,
+        "p99Ms": 19.100000023841858,
+        "worstMs": 49.10000002384186,
+        "over33ms": 4
+      }
+    }
+  ],
+  "errors": [],
+  "note": "Normal uncompressed real-time rendering with an input-only pilot. No health/score/damage/wave/progression edits. Headless shared-host SwiftShader and touch emulation, not physical-device or human-enjoyment validation."
+}

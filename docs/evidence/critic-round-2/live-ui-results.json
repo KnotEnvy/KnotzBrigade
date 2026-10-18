@@ -1,0 +1,21 @@
+{
+  "initial": {
+    "clock": 0.026670000000000072,
+    "x": 210,
+    "y": 355
+  },
+  "moved": {
+    "clock": 0.48330999999999946,
+    "x": 210,
+    "y": 482.7499999999996
+  },
+  "focused": {
+    "clock": 0.9316199999999996,
+    "x": 210,
+    "y": 412.74999999999915
+  },
+  "checkboxPause": true,
+  "portraitGuard": true,
+  "landscapeFocus": true,
+  "errors": []
+}

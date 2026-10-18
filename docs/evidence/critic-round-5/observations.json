@@ -1,0 +1,303 @@
+{
+  "errors": [],
+  "note": "Independent normal-rendered keyboard/UI and actual WebGL loss/restoration samples. No wave, clock, damage, health or score edits. Touch is emulation; no listening or physical-device/human-play claims.",
+  "initial": {
+    "clock": 2.3642766666666684,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 355
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 2.739954648526105,
+      "duck": 1,
+      "paused": false
+    },
+    "music": 0.20160000026226044,
+    "voices": 1
+  },
+  "down": {
+    "clock": 2.7059366666666693,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 470.583333333333
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.047619047619083,
+      "duck": 1,
+      "paused": false
+    },
+    "music": 0.20160000026226044,
+    "voices": 1
+  },
+  "focusGuard": {
+    "clock": 3.2142666666666706,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.5584580498866707,
+      "duck": 1,
+      "paused": false
+    },
+    "music": 0.20160000026226044,
+    "voices": 2
+  },
+  "settingsBefore": {
+    "clock": 3.2542666666666706,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.5990929705215926,
+      "duck": 1,
+      "paused": true
+    },
+    "music": 0.20160000026226044,
+    "voices": 0
+  },
+  "settingsAfter": {
+    "clock": 3.2542666666666706,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.5990929705215926,
+      "duck": 1,
+      "paused": true
+    },
+    "music": 0.20160000026226044,
+    "voices": 0
+  },
+  "musicMuted": {
+    "allMusicZero": true,
+    "effectsControl": "85",
+    "voiceVolumes": [
+      0.0935,
+      0.0935,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.204,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.357,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "afterSettings": {
+    "clock": 3.6109066666666707,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.8080725623583334,
+      "duck": 1,
+      "paused": false
+    },
+    "music": 0.20160000026226044,
+    "voices": 3
+  },
+  "lossHeld": {
+    "clock": 3.662576666666671,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.866122448979649,
+      "duck": 1,
+      "paused": true
+    },
+    "music": 0.20160000026226044,
+    "voices": 0
+  },
+  "lossAfterBlindResume": {
+    "clock": 3.662576666666671,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.866122448979649,
+      "duck": 1,
+      "paused": true
+    },
+    "music": 0.20160000026226044,
+    "voices": 0
+  },
+  "restored": {
+    "clock": 3.662576666666671,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 3.866122448979649,
+      "duck": 1,
+      "paused": true
+    },
+    "music": 0.20160000026226044,
+    "voices": 0
+  },
+  "resumed": {
+    "clock": 4.034256666666671,
+    "hull": 6,
+    "player": {
+      "x": 210,
+      "y": 424.16666666666595
+    },
+    "canvas": [
+      960,
+      540
+    ],
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 4.147664399093031,
+      "duck": 1,
+      "paused": false
+    },
+    "music": 0.20160000026226044,
+    "voices": 3
+  },
+  "touch": {
+    "body": 390,
+    "width": 390,
+    "canvas": [
+      640,
+      360
+    ],
+    "guards": 1,
+    "hullFont": "12px",
+    "guardFont": "12px",
+    "focus": {
+      "x": 123.109375,
+      "y": 356.5,
+      "width": 60,
+      "height": 58,
+      "top": 356.5,
+      "right": 183.109375,
+      "bottom": 414.5,
+      "left": 123.109375
+    },
+    "pause": {
+      "x": 221,
+      "y": 11,
+      "width": 36,
+      "height": 36,
+      "top": 11,
+      "right": 257,
+      "bottom": 47,
+      "left": 221
+    },
+    "score": {
+      "theme": "breakwater",
+      "queued": null,
+      "overload": false,
+      "position": 2.9199092970522322,
+      "duck": 1,
+      "paused": false
+    },
+    "paused": true
+  }
+}

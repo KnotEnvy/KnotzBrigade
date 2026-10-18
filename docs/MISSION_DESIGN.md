@@ -1,0 +1,9 @@
+# Mission 01 — The Drowned Foundry
+
+A complete roughly three-minute horizontal shooter mission in three parts. The first part teaches movement, firing and Tideguard through authored waves. The second combines dive attackers, aimed fire and mines, then gates progression on the Broodkeeper miniboss. The third adds foundry hazards and culminates in the Furnace Warden. Part transitions repair two hull points and establish retry checkpoints.
+
+The signature loop: defeat enemies to maintain a score chain; catch readable amber projectiles with Tideguard to charge a countershot and resonance; spend full resonance on Surge to clear danger and amplify weapons. A small visible core is the vulnerable hitbox. Focus movement, clear attack telegraphs, post-hit invulnerability and checkpoint retries keep failures understandable.
+
+Two loadouts offer a precise lance or a broad fan. Automatic fire is on by default and can be disabled. Weapon upgrades do not disappear on damage. Optional salvage couriers reward forward positioning. Cadet, Pilot and Ace modes use separate local records. Checkpoint clears are marked as practice and never replace full-run records.
+
+Review categories, fixed before the first independent review: (1) moment-to-moment fun, (2) controls and game feel, (3) encounter pacing and three-part structure, (4) enemy variety and fairness, (5) miniboss/final-guardian design, (6) visual identity and readability, (7) audio and feedback, (8) engagement and replay, (9) reliability/performance, (10) onboarding and device accessibility. Each must exceed 8.8/10. Scores are subjective critic assessments, not objective rankings or a substitute for human playtesting. Critics should compare the mission's mechanics and execution to horizontal shooters such as R-Type/Gradius, state testing limitations, and give honest scores without rewarding effort or raising scores to satisfy the threshold.

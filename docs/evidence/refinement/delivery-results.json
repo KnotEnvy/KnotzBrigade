@@ -1,0 +1,200 @@
+{
+  "checks": [
+    "five distinct themes plus overload decode, loop at fixed pitch, have headroom and use less decoded memory than the old track",
+    "bar-aligned sector/boss transitions and overload layer work in real audio time",
+    "warning ducks music and the full music level recovers",
+    "actual scene pause holds all music, active effects and their transport",
+    "independent live music/effects controls persist without muting the other bus",
+    "continuous post-master sampling of overlapping warnings, firing and explosions stays below clipping with all sliders at maximum",
+    "sustained 23ms frames trigger automatic reduction while preserving player state and world geometry",
+    "manual render quality stays under player control",
+    "actual WebGL loss holds gameplay and blocks blind resume; restored renderer permits an explicit unchanged-state resume",
+    "a missing score asset leaves launch disabled instead of failing later in combat"
+  ],
+  "assets": {
+    "clips": [
+      {
+        "key": "breakwater",
+        "duration": 17.142857142857142,
+        "channels": 1,
+        "samples": 756000,
+        "decodedBytes": 3024000,
+        "rate": 1
+      },
+      {
+        "key": "convoy",
+        "duration": 17.142857142857142,
+        "channels": 1,
+        "samples": 756000,
+        "decodedBytes": 3024000,
+        "rate": 1
+      },
+      {
+        "key": "foundry",
+        "duration": 17.142857142857142,
+        "channels": 1,
+        "samples": 756000,
+        "decodedBytes": 3024000,
+        "rate": 1
+      },
+      {
+        "key": "brood",
+        "duration": 17.142857142857142,
+        "channels": 1,
+        "samples": 756000,
+        "decodedBytes": 3024000,
+        "rate": 1
+      },
+      {
+        "key": "overload",
+        "duration": 17.142857142857142,
+        "channels": 1,
+        "samples": 756000,
+        "decodedBytes": 3024000,
+        "rate": 1
+      },
+      {
+        "key": "warden",
+        "duration": 17.142857142857142,
+        "channels": 1,
+        "samples": 756000,
+        "decodedBytes": 3024000,
+        "rate": 1
+      }
+    ],
+    "legacy": {
+      "duration": 156.00326530612244,
+      "decodedBytes": 55037952
+    },
+    "manifest": {
+      "composer": "Knotz Brigade project score",
+      "bpm": 112,
+      "bars": 8,
+      "sampleRate": 22050,
+      "channels": 1,
+      "themes": [
+        {
+          "key": "breakwater",
+          "seconds": 17.142857142857142,
+          "bytes": 756044,
+          "peak": 0.56599673488817,
+          "rms": 0.1289129888202838,
+          "seamDelta": 0.0018014335860933749
+        },
+        {
+          "key": "convoy",
+          "seconds": 17.142857142857142,
+          "bytes": 756044,
+          "peak": 0.5533651735365039,
+          "rms": 0.13407538538055536,
+          "seamDelta": 0.0004449792142466366
+        },
+        {
+          "key": "foundry",
+          "seconds": 17.142857142857142,
+          "bytes": 756044,
+          "peak": 0.5723219887397916,
+          "rms": 0.13498168125126245,
+          "seamDelta": 0.0016794397264528957
+        },
+        {
+          "key": "brood",
+          "seconds": 17.142857142857142,
+          "bytes": 756044,
+          "peak": 0.5862871635593763,
+          "rms": 0.13881898844334528,
+          "seamDelta": 0.0004449792142466366
+        },
+        {
+          "key": "overload",
+          "seconds": 17.142857142857142,
+          "bytes": 756044,
+          "peak": 0.2254755127974154,
+          "rms": 0.045039268095010666,
+          "seamDelta": 0.00046921544810290974
+        },
+        {
+          "key": "warden",
+          "seconds": 17.142857142857142,
+          "bytes": 756044,
+          "peak": 0.68,
+          "rms": 0.14052148179330515,
+          "seamDelta": 0.0004457851266737931
+        }
+      ]
+    }
+  },
+  "transitions": [
+    {
+      "theme": "convoy",
+      "queued": null,
+      "overload": false,
+      "position": 2.1594557823129072,
+      "duck": 1,
+      "paused": false
+    },
+    {
+      "theme": "brood",
+      "queued": null,
+      "overload": false,
+      "position": 4.28988662131513,
+      "duck": 1,
+      "paused": false
+    },
+    {
+      "theme": "foundry",
+      "queued": null,
+      "overload": false,
+      "position": 6.4406349206348565,
+      "duck": 1,
+      "paused": false
+    },
+    {
+      "theme": "warden",
+      "queued": null,
+      "overload": true,
+      "position": 8.57977324263036,
+      "duck": 1,
+      "paused": false
+    }
+  ],
+  "signal": {
+    "peak": 0.956473171710968,
+    "rms": 0.1568686342693535,
+    "frames": 58368
+  },
+  "preferences": {
+    "difficulty": "pilot",
+    "weapon": "lance",
+    "autoFire": false,
+    "muted": false,
+    "volume": 0.55,
+    "musicVolume": 0.8,
+    "effectsVolume": 0.85,
+    "reducedMotion": false,
+    "effects": true,
+    "quality": "auto"
+  },
+  "quality": {
+    "preset": "performance",
+    "canvas": [
+      640,
+      360
+    ],
+    "zoom": 0.5,
+    "position": [
+      210,
+      355
+    ],
+    "hp": 6,
+    "bounds": 1120,
+    "before": {
+      "x": 210,
+      "y": 355,
+      "hp": 6,
+      "bounds": 1120
+    }
+  },
+  "errors": [],
+  "note": "Controlled browser audio/governor fixtures; electrical signal, not a listening assessment or physical-device benchmark."
+}

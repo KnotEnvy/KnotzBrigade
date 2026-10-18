@@ -1,0 +1,181 @@
+{
+  "sourceCommit": "d5edd10e3e4ca1ddfa1d34dfe59e01b4bf79c986",
+  "note": "Original working-tree bytes preserved, including pre-existing CRLF line endings. Paths are relative to legacy-canvas/.",
+  "files": [
+    {
+      "path": "BaseSideShooterSetup.js",
+      "bytes": 7775,
+      "sha256": "33fc4f93d078a89af87442afdedca75632c1b39e8acdc8df4d0f707fc57ccb05"
+    },
+    {
+      "path": "KnotzBrigade.code-workspace",
+      "bytes": 60,
+      "sha256": "69e7b37e2ebdaf8fc313bf6cb74882fed65895e5f853736e65759bafb333bc6b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2597,
+      "sha256": "a5282f0fea39516e72e464989bbbe2903dc9a7f1613923087bab7a7b5fa104fe"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2305,
+      "sha256": "63231e238772477cf7a6aaf59276d9c89ad872926f5d79bc0008896f597512f8"
+    },
+    {
+      "path": "script.js",
+      "bytes": 26591,
+      "sha256": "2e79595d93b9984b98468942c7d0c718972a6665433ec3e27b2837a819788cf3"
+    },
+    {
+      "path": "script2.js",
+      "bytes": 38686,
+      "sha256": "6c0d6da0dc87987f8e97e2b38c113632cabbfee22466aea9b62a909b6475857f"
+    },
+    {
+      "path": "style.css",
+      "bytes": 566,
+      "sha256": "abc60fdfeacf96deb552faaeca24365926e574a2aeee1222a931cefcc4c8675d"
+    },
+    {
+      "path": "ultracolor.py",
+      "bytes": 16934,
+      "sha256": "92510b563e26c2c0d03dd5994b8a195b8e759e007fc4cbced9b0570ee2cc0ae8"
+    },
+    {
+      "path": "images/angler1.png",
+      "bytes": 452235,
+      "sha256": "e1cf0623f415e3f513c7ae4310d1bd73570be2b1237d1474ec2dca77fb6d766b"
+    },
+    {
+      "path": "images/angler2.png",
+      "bytes": 352158,
+      "sha256": "5fdac5183b1f73fff52cd6519a28cf5ffa48bda612e61940d05df970ed0785d5"
+    },
+    {
+      "path": "images/bulbwhale.png",
+      "bytes": 440883,
+      "sha256": "fe695405d6e8d8183d696910c42c99c48d462a91f022940b7745963747ffad48"
+    },
+    {
+      "path": "images/drone.png",
+      "bytes": 142972,
+      "sha256": "4f216c9f13b8e190e8ea4a7bdb5d7909e834af04fd5acf15f47230cded190cc7"
+    },
+    {
+      "path": "images/fireExplosion.png",
+      "bytes": 28069,
+      "sha256": "cc17c640b7c445002bae75952662be8de48b87599d96bf811b5f9f67d69448f2"
+    },
+    {
+      "path": "images/fireball.png",
+      "bytes": 1976,
+      "sha256": "8849e525bd26eb95c8304ed0eba23d973087b063670d63997b28b01c389c595b"
+    },
+    {
+      "path": "images/gears.png",
+      "bytes": 6147,
+      "sha256": "afeb5cd9662cbcc3d1ab70d62e7df179360014f9f17172d3a3433f3b39acb027"
+    },
+    {
+      "path": "images/hivewhale.png",
+      "bytes": 416168,
+      "sha256": "7bb84e6876e676bf3988e25105c3eaaf111820d0a0c88e19cf3837b82a87c5a6"
+    },
+    {
+      "path": "images/layer1.png",
+      "bytes": 106909,
+      "sha256": "f724a0db5977f193e7f2dce1092976873b600870305a4c948c3b14eb77c531ac"
+    },
+    {
+      "path": "images/layer2.png",
+      "bytes": 74742,
+      "sha256": "f267b5302155791ea394aea44bfd6a4879cca0bc06a4689640e07997c368926c"
+    },
+    {
+      "path": "images/layer3.png",
+      "bytes": 98915,
+      "sha256": "b69a87f3f2ffe7e2c912110f8592bbf784361c5cc4f77f0e994c42fc11e1f0fc"
+    },
+    {
+      "path": "images/layer4.png",
+      "bytes": 23703,
+      "sha256": "2a22a6e548e536eee8aab6f996b2efc74ccb0c6ad531b97efc9bf86e398d5b43"
+    },
+    {
+      "path": "images/lucky.png",
+      "bytes": 117507,
+      "sha256": "3189717c632f3d4a5c8cbc2dbc84f97fa57e7838956bb7092935c754c24fc9ae"
+    },
+    {
+      "path": "images/moonfish.png",
+      "bytes": 273439,
+      "sha256": "07f83548876d780f07ece8bf0641a1828ef31f65f647e80c0e45179d81e8e1f3"
+    },
+    {
+      "path": "images/player.png",
+      "bytes": 285688,
+      "sha256": "5746ef34da34a902e7583da597cbc65cf75caf75046b49fe6a163cd906b626db"
+    },
+    {
+      "path": "images/projectile.png",
+      "bytes": 335,
+      "sha256": "2e1734b988bd23713b524386ecb704503564461d4978001b97384028c9b89269"
+    },
+    {
+      "path": "images/razorfin.png",
+      "bytes": 133266,
+      "sha256": "0ae6f29ddd6586615f0bf17b2710cd8b63b616be2c0cb528d45e2ef5ca7f62db"
+    },
+    {
+      "path": "images/shield.png",
+      "bytes": 3519,
+      "sha256": "985c68d7a8292018c5a28fa8de61917f84ae694c5a32dafcc42733a8aaa7bc02"
+    },
+    {
+      "path": "images/smokeExplosion.png",
+      "bytes": 18671,
+      "sha256": "f7eff0ebc142a3c9d87468ec59c738bf5a39d77f6da97be40619dad96d595e0e"
+    },
+    {
+      "path": "images/stalker.png",
+      "bytes": 145627,
+      "sha256": "2fb034cba97446978758342bd1c9934c36985024b4a3c2b3f228c8cf60048f82"
+    },
+    {
+      "path": "sounds/boss_v2.mp3",
+      "bytes": 6240129,
+      "sha256": "ffc87aad22b933fae44ecb7e8a263e1c812a609e6736ff71f4b30164347b95af"
+    },
+    {
+      "path": "sounds/explosion.wav",
+      "bytes": 3144,
+      "sha256": "6f68132e272568983ee2c62951c3546300062cbafe39697acdacc19c83d39a4f"
+    },
+    {
+      "path": "sounds/hit.wav",
+      "bytes": 9782,
+      "sha256": "d7ccede4e68834eb25d722c530ba4d0df77faeaffd2e5fb61100dbd13babfd2a"
+    },
+    {
+      "path": "sounds/powerdown.wav",
+      "bytes": 38366,
+      "sha256": "d6a44e3c60f8e36ff96e0f179c5b542ec41b5fed3ba3d2fe4a39473a93b92b7f"
+    },
+    {
+      "path": "sounds/powerup.wav",
+      "bytes": 10400,
+      "sha256": "5052bd271ee32b83ac7055df9f5af61acbb33f1d7c5dd6fac60d29b28a3b2df3"
+    },
+    {
+      "path": "sounds/shield.wav",
+      "bytes": 19694,
+      "sha256": "4002aa5e9413dcd92a637f662930fc33e535d9638c11a3026433405d14f285ae"
+    },
+    {
+      "path": "sounds/shot.wav",
+      "bytes": 2496,
+      "sha256": "5dddea3ccb8823bd6f005796d2ddc08de274cbda28d4b7cbcbfe7fbeb18fd168"
+    }
+  ]
+}

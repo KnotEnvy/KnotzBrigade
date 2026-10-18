@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-17",
+  "independentStaticCheck": {
+    "command": "npm run check",
+    "cwd": "remake",
+    "exitCode": 0,
+    "engine": "Phaser 4.2.1",
+    "typescript": "passed",
+    "removedV3RenderApiCheck": "passed"
+  },
+  "browser": {
+    "t3StatusAttemptedFirst": true,
+    "t3Available": false,
+    "t3OpenError": "Missing libnspr4.so, libnss3.so, libnssutil3.so, libasound.so.2",
+    "fallback": "Playwright Chromium 1248, shared-host SwiftShader",
+    "sandboxLaunch": "blocked by socket restriction",
+    "approvedEscalatedFallback": "completed",
+    "uncaughtPageErrors": []
+  },
+  "reviewHelperCorrection": "Initial passive part-03 sample ended before helper's 27s target; helper timed out. Corrected to accept ending. Repeated final script completed. This is not a game defect.",
+  "sourceEdits": false,
+  "independentlyRepeatedFullMissionClear": false,
+  "listenedToAudio": false,
+  "physicalPhoneOrController": false,
+  "representativeGpuBenchmark": false,
+  "humanEnjoymentOrReplayStudy": false,
+  "scores": [8.9,8.9,8.9,8.9,8.9,8.9,8.3,8.9,8.8,8.9],
+  "mean": 8.83,
+  "strictlyAbove8_8": 8,
+  "allCategoriesPass": false,
+  "remainingChiefBlockers": ["heard mix assessment", "representative physical-device full-flight delivery", "human first-play/replay feedback"]
+}

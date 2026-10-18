@@ -1,0 +1,18 @@
+{
+  "sample": {
+    "quality": [
+      640,
+      360
+    ],
+    "median": 16.69999999999891,
+    "p95": 16.799999999999272,
+    "averageFPS": 60.00200006666889,
+    "maxHostile": 24,
+    "boss": "bulbwhale",
+    "overload": true,
+    "hull": 5,
+    "ending": false,
+    "phaseTime": 8.69859333333332
+  },
+  "note": "Controlled phase-II Warden load fixture: checkpoint wave clock moved forward and boss set to49%HP to sample overload. Auto-fire off. No win/normal progression claim. Live rendering on shared-host SwiftShader at performance quality only; not a physical-GPU/phone or full-run benchmark."
+}

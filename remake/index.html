@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#081a25" /><link rel="icon" href="data:," />
+  <title>Knotz Brigade — The Drowned Foundry</title>
+</head>
+<body>
+<main id="game-shell">
+  <header class="masthead">
+    <a class="wordmark" href="./"><span class="mark">KB</span><span>KNOTZ BRIGADE<small>AN ABYSSAL EXPEDITION</small></span></a>
+    <div class="header-actions"><span class="engine">PHASER 4.2.1</span><button id="quick-pause" class="icon-button" aria-label="Pause flight" hidden>Ⅱ</button><button id="mute" class="icon-button" aria-label="Mute audio" title="Mute · M">♪</button><button id="fullscreen" class="icon-button" aria-label="Fullscreen" title="Fullscreen · F">⛶</button><button id="settings-open" class="icon-button" aria-label="Settings" title="Settings">⚙</button></div>
+  </header>
+  <section class="viewport" id="playfield" tabindex="-1" aria-label="The Drowned Foundry mission">
+    <div id="game" role="application" aria-label="Horizontal shooter. WASD or arrows move. Shift focuses movement. X uses Tideguard, C uses Surge. P pauses. Auto-fire is on by default."></div>
+    <div class="harbor" id="harbor">
+      <div class="briefing">
+        <p class="eyebrow">MISSION 01 <span>·</span> THE BRASSWAKE COAST</p>
+        <h1>THE DROWNED<br /><em>FOUNDRY</em></h1>
+        <p class="premise">Something beneath the foundry is waking.<br />Break the blockade. Silence its heart. Come home.</p>
+        <div class="loadout"><label>YOUR RIG<select id="weapon"><option value="lance">Lance · concentrated bolts</option><option value="fan">Fan · wide spread</option></select></label><label>FLIGHT<select id="difficulty"><option value="cadet">Cadet · forgiving</option><option value="pilot">Pilot · the intended run</option><option value="ace">Ace · no quiet water</option></select></label></div>
+        <div class="launch-row"><button class="primary" id="begin" disabled>Preparing expedition…</button><button id="how-open" class="text-button">Flight manual ↗</button></div>
+        <p class="launch-note" id="launch-note">Loading the foundry…</p>
+      </div>
+      <div class="route" aria-label="Mission route"><div><b>01</b><span>THE BREAKWATER<small>Find your rhythm</small></span></div><i></i><div><b>02</b><span>THE BROOD CONVOY<small>Carrier miniboss</small></span></div><i></i><div><b>03</b><span>HEART OF THE WORKS<small>Silence the guardian</small></span></div></div>
+      <div class="best"><span>BEST · SELECTED RIG</span><strong id="best-score">—</strong></div>
+    </div>
+
+    <div class="hud" id="hud" hidden aria-label="Mission status">
+      <div class="hud-top"><div class="hull-area"><span class="hud-label">HULL <b id="hull-label">6 / 6</b></span><div id="hull" class="hull-pips"></div></div><div class="sector"><span id="part-label">01 / 03 · THE BREAKWATER</span><small id="objective">Reach the foundry gates</small><div class="progress"><i id="part-progress"></i></div></div><div class="score"><span class="hud-label">SCORE</span><strong id="score">000000</strong></div></div>
+      <div class="hud-bottom"><div class="chain"><b id="multiplier">×1</b><span><strong id="chain-label">BUILD YOUR CHAIN</strong><i><u id="chain-progress"></u></i></span></div><div class="weapon-label" id="weapon-label">LANCE · LV 1</div><div class="abilities"><button id="guard" class="ability"><kbd>X</kbd><span>TIDEGUARD<small id="guard-status">READY</small></span></button><button id="surge" class="ability surge"><kbd>C</kbd><span>SURGE<small id="surge-status">0%</small></span><i id="charge-progress"></i></button></div></div>
+    </div>
+    <div class="boss-bar" id="boss-bar" hidden><div><span id="boss-name">THE BROODKEEPER</span><small id="boss-phase">CORE INTEGRITY</small></div><i><u id="boss-progress"></u></i></div>
+    <div class="part-banner" id="part-banner" hidden><span id="banner-number">PART 01</span><strong id="banner-name"></strong><small id="banner-subtitle"></small></div>
+    <div class="radio" id="radio" hidden><b>BRIGADE COMMS</b><span id="radio-text"></span></div>
+
+    <div class="overlay pause" id="pause-panel" hidden><div class="panel"><p class="eyebrow">TAKE A BREATH</p><h2>HOLDING POSITION</h2><p id="pause-copy">The tide can wait.</p><button class="primary" id="resume">Resume flight</button><button id="pause-settings">Settings</button><button id="abandon">Return to harbor</button><small>P / Escape to resume</small></div></div>
+    <div class="overlay results" id="results" hidden><div class="debrief">
+      <div class="report-heading"><div><p class="eyebrow" id="result-label">MISSION COMPLETE</p><h2 id="result-title">THE HEART IS QUIET.</h2><p id="result-copy">The brigade is coming home.</p></div><div class="rank" id="rank">A</div></div>
+      <div class="result-score"><strong id="final-score">0</strong><span id="record-label">MISSION SCORE</span></div>
+      <div class="stat-grid"><div><span>HOSTILES CLEARED</span><strong id="stat-kills">0</strong></div><div><span>BEST CHAIN</span><strong id="stat-chain">0</strong></div><div><span>SHOTS CAUGHT</span><strong id="stat-absorbed">0</strong></div><div><span>RELAY DATA</span><strong id="stat-data">0 / 3</strong></div><div><span>ACCURACY</span><strong id="stat-accuracy">0%</strong></div><div><span>FLIGHT TIME</span><strong id="stat-time">0:00</strong></div></div>
+      <p class="result-challenge" id="result-challenge"></p><div id="sector-results" class="sector-results" aria-label="Per-part mastery and practice"></div>
+      <div class="result-actions"><button class="primary" id="replay">Fly again</button><button id="checkpoint" hidden>Retry checkpoint</button><button id="result-harbor">Harbor</button></div>
+    </div></div>
+    <div class="overlay graphics-status" id="graphics-status" hidden role="status" aria-live="polite"><div class="panel"><h2>HOLDING THE TIDE</h2><p>Graphics interrupted. Waiting for the browser to restore the view.</p><button id="reload-graphics">Reload expedition</button></div></div><p id="error" role="alert" hidden></p>
+  </section>
+  <div class="touch-controls" id="touch-controls" hidden><div id="joystick" role="slider" tabindex="0" aria-label="Movement joystick. Drag to steer, or use arrow keys." aria-valuemin="0" aria-valuemax="360" aria-valuenow="0"><i id="stick-thumb"></i><span>STEER</span></div><p>AUTO-FIRE<br /><small>Drag to steer</small></p><button id="touch-focus">FOCUS<small>HOLD</small></button><button id="touch-guard">GUARD<small id="touch-guard-status">READY</small></button><button id="touch-surge">SURGE<small id="touch-surge-status">0%</small></button></div>
+  <footer class="flight-deck"><p><kbd>WASD</kbd> / <kbd>↑↓←→</kbd> steer <span>·</span> <kbd>SHIFT</kbd> focus <span>·</span> <kbd>X</kbd> catch fire <span>·</span> <kbd>C</kbd> surge</p><div><label class="auto"><input id="auto-fire" type="checkbox" checked /> Auto-fire</label><button id="pause-button" disabled>Pause <kbd>P</kbd></button></div></footer>
+  <p class="under-deck"><span>MISSION 01 / THREE PARTS / ONE WAY HOME</span><span id="deck-hint">Amber shots can be caught. Red lanes tell you where to move.</span></p>
+</main>
+
+<dialog id="settings-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close settings">×</button><p class="eyebrow">FLIGHT SYSTEMS</p><h2>MAKE IT YOURS.</h2><label class="setting"><span>Render quality<small>Same arena and controls at every setting · Auto adjusts rendering</small></span><select id="quality"><option value="auto">Automatic · smooth combat</option><option value="performance">Performance · 640 × 360</option><option value="balanced">Balanced · 960 × 540</option><option value="high">High · 1280 × 720</option></select></label><label class="setting">Master volume<input id="volume" type="range" min="0" max="100" value="55" /></label><label class="setting">Music<input id="music-volume" type="range" min="0" max="100" value="72" /></label><label class="setting">Effects &amp; warnings<input id="effects-volume" type="range" min="0" max="100" value="85" /></label><p id="quality-readout" class="quality-readout" aria-live="polite"></p><label class="setting"><span>Cinematic effects<small>Atmospheric lighting and vignette</small></span><input id="effects" type="checkbox" checked /></label><label class="setting"><span>Reduced motion<small>Removes camera shake; fewer impact particles</small></span><input id="reduced-motion" type="checkbox" /></label><button class="primary">Back to flight</button></form></dialog>
+<dialog id="how-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close flight manual">×</button><p class="eyebrow">A BRIGADE FIELD GUIDE</p><h2>CATCH THE TIDE.</h2><div class="manual"><p><b>STEER THE CORE</b>Your bright core is your vulnerable point. Arrows / WASD move; hold Shift for precise movement. On touch, use the stick and hold FOCUS for fine steering. Gamepad: left stick, A fire, B guard, X surge.</p><p><b>CATCH. THEN COUNTER.</b>Press X (or right mouse) for a 1.15-second Tideguard. Catch amber shots in its ring. Your countershot fires when the shield ends; more caught shots mean more damage. Recharge: 5.2 seconds.</p><p><b>SPEND YOUR SURGE</b>Kills, grazes and caught shots build resonance. At 100%, press C to clear enemy fire and amplify your weapon for six seconds.</p><p><b>STAY FOR ONE MORE CHAIN</b>Link kills for up to ×5 score. Couriers carry relay data and upgrades. Upgrades survive damage. Each new part repairs two hull points and saves a retry checkpoint.</p><p><b>BREAK THE FOUNDRY</b>The Broodkeeper opens its armor to release drones; countershots pierce it at any time. Leave its marked wake before it charges. The Furnace Warden has three linked conduits: destroy them for a six-second core opening. Red vents fire after a warning. Pressure gates block shots: fly through their mint opening, or use Guard to absorb a scrape. Clean passages reward resonance and score.</p><p><b>MASTER THE FLIGHT</b>S+ requires a clean clear, all 3 relays, 12 catches and 65,000 points. Records are separate for each rig and difficulty. Boss reinforcements and defensive score have fixed budgets; fast boss clears earn more.</p><p><b>TAKE THE FLIGHT YOU WANT</b>Auto-fire starts on; turn it off to use Space. P / Escape pauses. M mutes. F opens fullscreen. Cadet is forgiving, Pilot is the intended run, Ace is faster. Checkpoint retries are practice; full-run records stay separate.</p></div><button class="primary">Understood</button></form></dialog>
+<script type="module" src="/src/main.ts"></script>
+</body></html>

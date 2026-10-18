@@ -1,0 +1,41 @@
+{
+  "runs": [
+    {
+      "canvas": [
+        960,
+        540
+      ],
+      "median": 16.699999999999818,
+      "p95": 33.30000000000018,
+      "averageFPS": 55.10653930933137,
+      "missionSeconds": 1.7973633333333316,
+      "actors": 0,
+      "hostile": 0
+    },
+    {
+      "canvas": [
+        640,
+        360
+      ],
+      "median": 16.699999999999818,
+      "p95": 16.700000000000273,
+      "averageFPS": 60.00400026668444,
+      "missionSeconds": 3.5972933333333255,
+      "actors": 3,
+      "hostile": 0
+    },
+    {
+      "canvas": [
+        1280,
+        720
+      ],
+      "median": 33.399999999999636,
+      "p95": 50,
+      "averageFPS": 26.86727565824826,
+      "missionSeconds": 7.280443333333332,
+      "actors": 7,
+      "hostile": 0
+    }
+  ],
+  "note": "Live fully rendered early-mission rAF samples on shared-host SwiftShader, one sequential sample per quality, not a representative-GPU/phone benchmark. Different encounter times and shared-host load prevent controlled causal comparisons."
+}
