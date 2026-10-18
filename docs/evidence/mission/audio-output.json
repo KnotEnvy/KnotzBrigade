@@ -1,0 +1,49 @@
+{
+  "context": "running",
+  "masterVolume": 0.550000011920929,
+  "muted": false,
+  "music": true,
+  "windows": [
+    {
+      "cue": "baseline",
+      "peak": 0.06969279795885086,
+      "rms": 0.018475189464704722
+    },
+    {
+      "cue": "warning",
+      "peak": 0.08335438370704651,
+      "rms": 0.01649124985370768
+    },
+    {
+      "cue": "catch",
+      "peak": 0.06622190773487091,
+      "rms": 0.01488107518446544
+    },
+    {
+      "cue": "counter",
+      "peak": 0.06408469378948212,
+      "rms": 0.017209602405081986
+    },
+    {
+      "cue": "surge",
+      "peak": 0.06756315380334854,
+      "rms": 0.019105898294437557
+    },
+    {
+      "cue": "open",
+      "peak": 0.0774058997631073,
+      "rms": 0.02040705305351282
+    },
+    {
+      "cue": "phase",
+      "peak": 0.06279522180557251,
+      "rms": 0.016532064864495252
+    },
+    {
+      "cue": "part",
+      "peak": 0.06791694462299347,
+      "rms": 0.01684447940012426
+    }
+  ],
+  "note": "Electrical output sample only, not a listening or perceptual mix assessment. Live music and firing remain active; no controlled loudness comparison."
+}

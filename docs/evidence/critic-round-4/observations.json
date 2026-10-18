@@ -1,0 +1,556 @@
+{
+  "part3At20": {
+    "clock": 20.411716666666557,
+    "actTime": 20.411716666666557,
+    "stage": 2,
+    "hull": 3,
+    "stats": {
+      "score": 1270,
+      "kills": 6,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 3,
+      "maxChain": 5,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 20.411716666666557
+    },
+    "options": {
+      "difficulty": "pilot",
+      "weapon": "lance",
+      "checkpoint": 2,
+      "practice": true
+    },
+    "player": {
+      "x": 210,
+      "y": 355
+    },
+    "enemies": [
+      {
+        "kind": "mine",
+        "x": 182.25,
+        "y": 400,
+        "age": 0.44665000000000077,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": 142.25,
+        "y": 490,
+        "age": 0.44665000000000077,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": 102.25,
+        "y": 580,
+        "age": 0.44665000000000077,
+        "hp": 2
+      },
+      {
+        "kind": "moonfish",
+        "x": 1294,
+        "y": 195,
+        "age": 0.42165000000000075,
+        "hp": 15
+      },
+      {
+        "kind": "moonfish",
+        "x": 204,
+        "y": 490,
+        "age": 13.422809999999977,
+        "hp": 15
+      },
+      {
+        "kind": "angler1",
+        "x": 986.2500000000117,
+        "y": 200,
+        "age": 3.429849999999997,
+        "hp": 12
+      },
+      {
+        "kind": "angler1",
+        "x": 1086.0000000000155,
+        "y": 500,
+        "age": 3.429849999999997,
+        "hp": 12
+      }
+    ],
+    "gates": [],
+    "radio": "Upper mine lane · clear a path if you want the courier relay."
+  },
+  "part3At23": {
+    "clock": 23.956586666666475,
+    "actTime": 23.956586666666475,
+    "stage": 2,
+    "hull": 2,
+    "stats": {
+      "score": 1310,
+      "kills": 6,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 2,
+      "damage": 4,
+      "maxChain": 5,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 23.956586666666475
+    },
+    "options": {
+      "difficulty": "pilot",
+      "weapon": "lance",
+      "checkpoint": 2,
+      "practice": true
+    },
+    "player": {
+      "x": 210,
+      "y": 355
+    },
+    "enemies": [
+      {
+        "kind": "mine",
+        "x": -133.75,
+        "y": 400,
+        "age": 0.5833199999999998,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": -173.75,
+        "y": 490,
+        "age": 0.5833199999999998,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": -213.75,
+        "y": 580,
+        "age": 0.5833199999999998,
+        "hp": 2
+      },
+      {
+        "kind": "moonfish",
+        "x": 974.5,
+        "y": 195,
+        "age": 3.966519999999998,
+        "hp": 15
+      },
+      {
+        "kind": "lucky",
+        "x": 963.333333333342,
+        "y": 219.97017183795077,
+        "age": 2.9632299999999985,
+        "hp": 8
+      },
+      {
+        "kind": "moonfish",
+        "x": -115.5,
+        "y": 490,
+        "age": 16.967679999999948,
+        "hp": 15
+      },
+      {
+        "kind": "angler1",
+        "x": 791.0000000000198,
+        "y": 200,
+        "age": 6.974720000000006,
+        "hp": 12
+      },
+      {
+        "kind": "angler1",
+        "x": 855.9166666666896,
+        "y": 500,
+        "age": 6.974720000000006,
+        "hp": 12
+      },
+      {
+        "kind": "mine",
+        "x": 978,
+        "y": 135,
+        "age": 2.154909999999998,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": 938,
+        "y": 195,
+        "age": 2.154909999999998,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": 898,
+        "y": 285,
+        "age": 2.154909999999998,
+        "hp": 2
+      }
+    ],
+    "gates": [],
+    "radio": "Optional upper relay · clear the pearls, then retrieve the data."
+  },
+  "part3Last": {
+    "clock": 26.541446666666403,
+    "actTime": 26.541446666666403,
+    "stage": 2,
+    "hull": 0,
+    "stats": {
+      "score": 1350,
+      "kills": 6,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 4,
+      "damage": 6,
+      "maxChain": 5,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 26.541446666666403
+    },
+    "options": {
+      "difficulty": "pilot",
+      "weapon": "lance",
+      "checkpoint": 2,
+      "practice": true
+    },
+    "player": {
+      "x": 210,
+      "y": 355
+    },
+    "enemies": [
+      {
+        "kind": "moonfish",
+        "x": 739,
+        "y": 195,
+        "age": 6.551380000000005,
+        "hp": 15
+      },
+      {
+        "kind": "lucky",
+        "x": 636.2500000000027,
+        "y": 229.20826599167583,
+        "age": 5.5480900000000055,
+        "hp": 8
+      },
+      {
+        "kind": "razorfin",
+        "x": 1102.8333333333262,
+        "y": 160,
+        "age": 1.5532499999999991,
+        "hp": 7
+      },
+      {
+        "kind": "angler1",
+        "x": 647.0833333333591,
+        "y": 200,
+        "age": 9.55957999999999,
+        "hp": 12
+      },
+      {
+        "kind": "angler1",
+        "x": 712.0000000000289,
+        "y": 500,
+        "age": 9.55957999999999,
+        "hp": 12
+      },
+      {
+        "kind": "razorfin",
+        "x": 1182.8333333333262,
+        "y": 350,
+        "age": 1.5532499999999991,
+        "hp": 7
+      },
+      {
+        "kind": "razorfin",
+        "x": 1262.8333333333262,
+        "y": 540,
+        "age": 1.5532499999999991,
+        "hp": 7
+      },
+      {
+        "kind": "mine",
+        "x": 730.5,
+        "y": 135,
+        "age": 1.3182499999999986,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": 690.5,
+        "y": 195,
+        "age": 1.2915799999999988,
+        "hp": 2
+      },
+      {
+        "kind": "mine",
+        "x": 650.5,
+        "y": 285,
+        "age": 1.2915799999999988,
+        "hp": 2
+      }
+    ],
+    "gates": [],
+    "radio": "Optional upper relay · clear the pearls, then retrieve the data."
+  },
+  "practiceDebrief": "CHECKPOINT PRACTICE CLEAR\n\nROUTE SECURED.\n\nPractice route cleared. Full-flight records stay unchanged.\n\nCLEAR\n4,200\nPRACTICE · FULL-RUN RECORD UNCHANGED\nHOSTILES CLEARED\n0\nBEST CHAIN\n0\nSHOTS CAUGHT\n0\nRELAY DATA\n0 / 1\nACCURACY\n0%\nFLIGHT TIME\n0:00\n\nPRACTICE GOAL: Recover this route’s 1 relay while keeping a clean hull.\n\n03 · CLEAN\n0 hull lost · 0/1 relay · 0 catches · 0 chain\n4,200 pts · FIRST PART CLEAR\nPractice from 03\nRetry practice →\nHarbor",
+  "practiceReplay": {
+    "clock": 0.40164000000000044,
+    "actTime": 0.40164000000000044,
+    "stage": 2,
+    "hull": 6,
+    "stats": {
+      "score": 0,
+      "kills": 0,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 0,
+      "maxChain": 0,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 0.40164000000000044
+    },
+    "options": {
+      "difficulty": "pilot",
+      "weapon": "lance",
+      "checkpoint": 2,
+      "practice": true
+    },
+    "player": {
+      "x": 210,
+      "y": 355
+    },
+    "enemies": [],
+    "gates": [],
+    "radio": "The heart is exposed. One last push. Bring everyone home."
+  },
+  "part2At15": {
+    "clock": 15.316080000000047,
+    "actTime": 15.316080000000047,
+    "stage": 1,
+    "hull": 4,
+    "stats": {
+      "score": 210,
+      "kills": 2,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 2,
+      "damage": 2,
+      "maxChain": 1,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 15.316080000000047
+    },
+    "options": {
+      "difficulty": "pilot",
+      "weapon": "lance",
+      "checkpoint": 1,
+      "practice": true
+    },
+    "player": {
+      "x": 210,
+      "y": 355
+    },
+    "enemies": [
+      {
+        "kind": "moonfish",
+        "x": 944.5,
+        "y": 350,
+        "age": 4.321509999999997,
+        "hp": 15
+      },
+      {
+        "kind": "drone",
+        "x": 755.9999999999967,
+        "y": 304.23382278814785,
+        "age": 2.8248899999999972,
+        "hp": 3
+      },
+      {
+        "kind": "drone",
+        "x": 915.9999999999918,
+        "y": 405.75779052071823,
+        "age": 2.8248899999999972,
+        "hp": 3
+      },
+      {
+        "kind": "drone",
+        "x": 995.9999999999887,
+        "y": 405.76770206478557,
+        "age": 2.8248899999999972,
+        "hp": 3
+      },
+      {
+        "kind": "mine",
+        "x": 953.25,
+        "y": 260,
+        "age": 2.5082699999999973,
+        "hp": 2
+      },
+      {
+        "kind": "angler1",
+        "x": 661.7500000000251,
+        "y": 200,
+        "age": 9.31798000000002,
+        "hp": 12
+      },
+      {
+        "kind": "angler1",
+        "x": 727.5833333333612,
+        "y": 490,
+        "age": 9.31798000000002,
+        "hp": 12
+      },
+      {
+        "kind": "mine",
+        "x": 913.25,
+        "y": 350,
+        "age": 2.483269999999998,
+        "hp": 2
+      }
+    ],
+    "gates": [
+      {
+        "x": 834.3579999999985,
+        "y": 320,
+        "gap": 250,
+        "hit": false,
+        "passed": false
+      }
+    ],
+    "radio": "Mine corridor · clear the pearls or thread the crossing escort."
+  },
+  "pauseVisible": true,
+  "normalMovement": {
+    "clock": 3.2164999999999955,
+    "actTime": 3.2164999999999955,
+    "stage": 0,
+    "hull": 6,
+    "stats": {
+      "score": 100,
+      "kills": 1,
+      "fired": 25,
+      "hit": 2,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 0,
+      "maxChain": 1,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 3.2164999999999955
+    },
+    "options": {
+      "difficulty": "pilot",
+      "weapon": "lance"
+    },
+    "player": {
+      "x": 210,
+      "y": 525.3333333333329
+    },
+    "enemies": [
+      {
+        "kind": "drone",
+        "x": 1087.4166666666613,
+        "y": 305.6974654564569,
+        "age": 1.2232599999999982,
+        "hp": 3
+      },
+      {
+        "kind": "drone",
+        "x": 1247.4166666666613,
+        "y": 385.6974654564569,
+        "age": 1.2232599999999982,
+        "hp": 3
+      },
+      {
+        "kind": "drone",
+        "x": 1327.4166666666613,
+        "y": 425.6974654564569,
+        "age": 1.2232599999999982,
+        "hp": 3
+      }
+    ],
+    "gates": [],
+    "radio": "First contact · steer into the formation. Keep your core safe."
+  },
+  "inputSample": {
+    "clock": 5.0730999999999975,
+    "actTime": 5.0730999999999975,
+    "stage": 0,
+    "hull": 6,
+    "stats": {
+      "score": 200,
+      "kills": 2,
+      "fired": 40,
+      "hit": 5,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 0,
+      "maxChain": 2,
+      "couriers": 0,
+      "guards": 1,
+      "surges": 0,
+      "elapsed": 5.0730999999999975
+    },
+    "options": {
+      "difficulty": "pilot",
+      "weapon": "lance"
+    },
+    "player": {
+      "x": 210,
+      "y": 449.9999999999995
+    },
+    "enemies": [
+      {
+        "kind": "drone",
+        "x": 704.7499999999977,
+        "y": 304.6722664768896,
+        "age": 3.0798599999999943,
+        "hp": 3
+      },
+      {
+        "kind": "drone",
+        "x": 864.7499999999919,
+        "y": 384.67226647688955,
+        "age": 3.0798599999999943,
+        "hp": 1
+      }
+    ],
+    "gates": [],
+    "radio": "First contact · steer into the formation. Keep your core safe."
+  },
+  "portrait": {
+    "width": 390,
+    "bodyWidth": 390,
+    "hullFont": "12px",
+    "guardFont": "12px",
+    "quality": [
+      "Performance · 640 × 360",
+      "Balanced · 960 × 540",
+      "High · 1280 × 720"
+    ]
+  },
+  "landscape": {
+    "width": 844,
+    "bodyWidth": 844,
+    "hullFont": "12px",
+    "guardFont": "12px",
+    "quality": [
+      "Performance · 640 × 360",
+      "Balanced · 960 × 540",
+      "High · 1280 × 720"
+    ]
+  },
+  "errors": [],
+  "note": "All encounter samples use normal rendered checkpoint updates, no clock, wave, score, damage or hull changes and auto-fire off. Practice debrief deliberately invokes finish(true), so it is synthetic UI verification, not a victory. Keyboard segment uses actual input with normal updates. Touch is emulation only."
+}

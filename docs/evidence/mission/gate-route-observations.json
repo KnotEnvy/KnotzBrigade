@@ -1,0 +1,47 @@
+{
+  "states": [
+    {
+      "stage": 0,
+      "clock": 34.033313333332686,
+      "actTime": 34.033313333332686,
+      "gate": {
+        "x": 693.3333333333403,
+        "y": 350,
+        "gap": 250,
+        "hit": false,
+        "passed": false
+      },
+      "completed": false,
+      "hull": 6
+    },
+    {
+      "stage": 1,
+      "clock": 62.033313333331094,
+      "actTime": 14.500000000000298,
+      "gate": {
+        "x": 996.6666666666771,
+        "y": 320,
+        "gap": 250,
+        "hit": false,
+        "passed": false
+      },
+      "completed": false,
+      "hull": 6
+    },
+    {
+      "stage": 2,
+      "clock": 118.03331333332791,
+      "actTime": 13.466666666666914,
+      "gate": {
+        "x": 733.6666666666599,
+        "y": 440,
+        "gap": 220,
+        "hit": false,
+        "passed": false
+      },
+      "completed": false,
+      "hull": 6
+    }
+  ],
+  "note": "Input-only simulation snapshots using the full mission test bot; no progression/health/score changes."
+}

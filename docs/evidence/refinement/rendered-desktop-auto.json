@@ -1,0 +1,301 @@
+{
+  "runs": [
+    {
+      "name": "desktop-auto",
+      "done": true,
+      "segments": {
+        "0:waves:normal": {
+          "frames": 2528,
+          "meanMs": 18.48492879747071,
+          "medianMs": 16.900000005960464,
+          "p95Ms": 28.69999998807907,
+          "p99Ms": 34.400000005960464,
+          "worstMs": 118.69999998807907,
+          "over33ms": 30
+        },
+        "1:waves:normal": {
+          "frames": 2147,
+          "meanMs": 17.01313460642202,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 22.099999994039536,
+          "p99Ms": 28.299999982118607,
+          "worstMs": 58.19999998807907,
+          "over33ms": 9
+        },
+        "1:hivewhale:normal": {
+          "frames": 781,
+          "meanMs": 16.71805377722397,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 21.80000001192093,
+          "p99Ms": 27.400000005960464,
+          "worstMs": 36,
+          "over33ms": 2
+        },
+        "1:hivewhale:overload": {
+          "frames": 479,
+          "meanMs": 16.657828810008432,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.30000001192093,
+          "p99Ms": 19.5,
+          "worstMs": 22,
+          "over33ms": 0
+        },
+        "2:waves:normal": {
+          "frames": 2609,
+          "meanMs": 17.261326178617065,
+          "medianMs": 16.899999976158142,
+          "p95Ms": 24,
+          "p99Ms": 28.100000023841858,
+          "worstMs": 42.60000002384186,
+          "over33ms": 5
+        },
+        "2:bulbwhale:normal": {
+          "frames": 1613,
+          "meanMs": 16.872783632970936,
+          "medianMs": 16.700000017881393,
+          "p95Ms": 21.400000005960464,
+          "p99Ms": 26.799999982118607,
+          "worstMs": 33.19999998807907,
+          "over33ms": 0
+        },
+        "2:bulbwhale:overload": {
+          "frames": 867,
+          "meanMs": 16.858592848911144,
+          "medianMs": 16.700000017881393,
+          "p95Ms": 24.099999994039536,
+          "p99Ms": 28.799999982118607,
+          "worstMs": 41.400000005960464,
+          "over33ms": 2
+        }
+      },
+      "phases": [
+        {
+          "phase": "0:waves:normal",
+          "at": 0.0024000000059604646,
+          "mission": 0.04995333333333339,
+          "hull": 6
+        },
+        {
+          "phase": "1:waves:normal",
+          "at": 46.74740000000596,
+          "mission": 45.530709999999374,
+          "hull": 6
+        },
+        {
+          "phase": "1:hivewhale:normal",
+          "at": 80.7765,
+          "mission": 79.54601000000153,
+          "hull": 6
+        },
+        {
+          "phase": "1:hivewhale:overload",
+          "at": 93.82769999998808,
+          "mission": 92.61214000000385,
+          "hull": 6
+        },
+        {
+          "phase": "1:waves:normal",
+          "at": 101.81109999999404,
+          "mission": 100.59516000000517,
+          "hull": 6
+        },
+        {
+          "phase": "2:waves:normal",
+          "at": 104.31030000001192,
+          "mission": 103.09506000000562,
+          "hull": 6
+        },
+        {
+          "phase": "2:bulbwhale:normal",
+          "at": 149.3263000000119,
+          "mission": 148.10991000000956,
+          "hull": 5
+        },
+        {
+          "phase": "2:bulbwhale:overload",
+          "at": 176.54090000000596,
+          "mission": 175.3171800000132,
+          "hull": 5
+        },
+        {
+          "phase": "2:waves:normal",
+          "at": 191.16,
+          "mission": 189.92494000001523,
+          "hull": 5
+        }
+      ],
+      "music": [
+        {
+          "theme": "breakwater:normal",
+          "at": 0.0024000000059604646,
+          "transport": 0.031927437641723344
+        },
+        {
+          "theme": "convoy:normal",
+          "at": 47.14169999998808,
+          "transport": 47.15972789115658
+        },
+        {
+          "theme": "brood:normal",
+          "at": 81.41940000000596,
+          "transport": 81.4381859410432
+        },
+        {
+          "theme": "brood:overload",
+          "at": 93.82769999998808,
+          "transport": 93.8405442176872
+        },
+        {
+          "theme": "brood:normal",
+          "at": 104.31030000001192,
+          "transport": 104.33015873015886
+        },
+        {
+          "theme": "foundry:normal",
+          "at": 104.99819999998807,
+          "transport": 105.0122448979593
+        },
+        {
+          "theme": "warden:normal",
+          "at": 149.9965,
+          "transport": 150.01251700680282
+        },
+        {
+          "theme": "warden:overload",
+          "at": 176.54090000000596,
+          "transport": 176.56163265306134
+        }
+      ],
+      "quality": [
+        {
+          "at": 0,
+          "width": 960
+        },
+        {
+          "at": 6.123400000005961,
+          "width": 640,
+          "worldWidth": 1120
+        }
+      ],
+      "result": {
+        "completed": true,
+        "practice": false,
+        "record": true,
+        "previous": 0,
+        "stage": 2,
+        "difficulty": "pilot",
+        "from": 0,
+        "relayTarget": 3,
+        "weapon": "lance",
+        "rank": "S",
+        "stats": {
+          "score": 101295,
+          "kills": 115,
+          "fired": 4369,
+          "hit": 1886,
+          "absorbed": 13,
+          "grazes": 2,
+          "damage": 1,
+          "maxChain": 27,
+          "couriers": 3,
+          "guards": 10,
+          "surges": 6,
+          "elapsed": 189.92494000001523
+        },
+        "sectors": [
+          {
+            "stage": 0,
+            "score": 13150,
+            "damage": 0,
+            "relays": 1,
+            "catches": 0,
+            "chain": 25,
+            "elapsed": 43.014139999999465,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          },
+          {
+            "stage": 1,
+            "score": 24055,
+            "damage": 0,
+            "relays": 1,
+            "catches": 6,
+            "chain": 21,
+            "elapsed": 55.04778000000579,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          },
+          {
+            "stage": 2,
+            "score": 64090,
+            "damage": 1,
+            "relays": 1,
+            "catches": 7,
+            "chain": 27,
+            "elapsed": 86.82988000000961,
+            "passed": true,
+            "best": 0,
+            "clean": false
+          }
+        ]
+      },
+      "completed": true,
+      "stats": {
+        "score": 101295,
+        "kills": 115,
+        "fired": 4369,
+        "hit": 1886,
+        "absorbed": 13,
+        "grazes": 2,
+        "damage": 1,
+        "maxChain": 27,
+        "couriers": 3,
+        "guards": 10,
+        "surges": 6,
+        "elapsed": 189.92494000001523
+      },
+      "attacks": [
+        "brood:volley",
+        "brood:release",
+        "brood:charge",
+        "brood:phase2",
+        "brood:volley",
+        "brood:release",
+        "warden:conduits",
+        "warden:curtain",
+        "warden:core-open",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:phase2",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines"
+      ],
+      "realSeconds": 191.16,
+      "frames": {
+        "frames": 11024,
+        "meanMs": 17.34034833091437,
+        "medianMs": 16.799999982118607,
+        "p95Ms": 25.399999976158142,
+        "p99Ms": 30,
+        "worstMs": 118.69999998807907,
+        "over33ms": 48
+      }
+    }
+  ],
+  "errors": [],
+  "note": "Normal uncompressed real-time rendering with an input-only pilot. No health/score/damage/wave/progression edits. Headless shared-host SwiftShader and touch emulation, not physical-device or human-enjoyment validation."
+}

@@ -1,0 +1,349 @@
+{
+  "liveDown": {
+    "clock": 1.58972,
+    "actTime": 1.58972,
+    "hull": 6,
+    "stage": 0,
+    "stats": {
+      "score": 0,
+      "kills": 0,
+      "fired": 12,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 0,
+      "maxChain": 0,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 1.58972
+    },
+    "gates": [],
+    "boss": null,
+    "history": [],
+    "radio": "Harbor to Brigade: the foundry is waking. Follow the relay signal."
+  },
+  "liveSample": {
+    "clock": 24.67547999999996,
+    "actTime": 24.67547999999996,
+    "hull": 4,
+    "stage": 0,
+    "stats": {
+      "score": 1280,
+      "kills": 11,
+      "fired": 175,
+      "hit": 22,
+      "absorbed": 0,
+      "grazes": 4,
+      "damage": 2,
+      "maxChain": 8,
+      "couriers": 0,
+      "guards": 2,
+      "surges": 0,
+      "elapsed": 24.67547999999996
+    },
+    "gates": [],
+    "boss": null,
+    "history": [],
+    "radio": "Destroy the courier, then collect its relay and upgrade."
+  },
+  "pauseVisible": true,
+  "part1Gate": {
+    "clock": 5.269789999999999,
+    "actTime": 34.85645999999995,
+    "hull": 6,
+    "stage": 0,
+    "stats": {
+      "score": 0,
+      "kills": 0,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 0,
+      "maxChain": 0,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 5.269789999999999
+    },
+    "gates": [
+      {
+        "x": 523.3739999999996,
+        "y": 350,
+        "gap": 250,
+        "hit": false,
+        "passed": false
+      }
+    ],
+    "boss": null,
+    "history": [],
+    "radio": "PRESSURE GATE · fly through the mint opening. Guard can absorb a scrape."
+  },
+  "part2Composition": {
+    "clock": 7.573039999999995,
+    "actTime": 15.249839999999983,
+    "hull": 6,
+    "stage": 1,
+    "stats": {
+      "score": 170,
+      "kills": 2,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 0,
+      "maxChain": 2,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 7.573039999999995
+    },
+    "gates": [
+      {
+        "x": 845.03,
+        "y": 320,
+        "gap": 250,
+        "hit": false,
+        "passed": false
+      }
+    ],
+    "boss": null,
+    "history": [],
+    "radio": "Mine corridor · clear the pearls or thread the crossing escort."
+  },
+  "part3Composition": {
+    "clock": 7.543010000000005,
+    "actTime": 14.606469999999995,
+    "hull": 5,
+    "stage": 2,
+    "stats": {
+      "score": 220,
+      "kills": 1,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 1,
+      "maxChain": 1,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 7.543010000000005
+    },
+    "gates": [
+      {
+        "x": 480.7091999999989,
+        "y": 440,
+        "gap": 220,
+        "hit": false,
+        "passed": false
+      }
+    ],
+    "boss": null,
+    "history": [],
+    "radio": "Thermal vent · leave the marked lane"
+  },
+  "wardenOpen": {
+    "clock": 9.969599999999996,
+    "actTime": 46.426589999999976,
+    "hull": 5,
+    "stage": 2,
+    "stats": {
+      "score": 580,
+      "kills": 4,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 1,
+      "maxChain": 3,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 9.969599999999996
+    },
+    "gates": [],
+    "boss": {
+      "hp": 850,
+      "exposedUntil": 15.624609999999999,
+      "openness": 0.9999985808526904
+    },
+    "history": [
+      "warden:conduits",
+      "warden:core-open",
+      "warden:curtain"
+    ],
+    "radio": "LINKS BROKEN · core exposed. Align and fire!"
+  },
+  "practiceDebrief": "CHECKPOINT PRACTICE CLEAR\n\nTHE HEART IS QUIET.\n\nThe foundry is silent. The brigade is coming home.\n\nC\n4,080\nPRACTICE · FULL-RUN RECORD UNCHANGED\nHOSTILES CLEARED\n4\nBEST CHAIN\n3\nSHOTS CAUGHT\n0\nRELAY DATA\n0 / 3\nACCURACY\n0%\nFLIGHT TIME\n0:09\n\nNEXT FLIGHT: Recover all three courier relays for the rescue bonus.\n\n03 · SECURED\n1 hull lost · 0/1 relay · 0 catches · 3 chain\n4,080 pts · FIRST PART CLEAR\nPractice from 03\nFly again →\nHarbor",
+  "practiceLaunch": {
+    "clock": 0.48829999999999857,
+    "actTime": 0.48829999999999857,
+    "hull": 6,
+    "stage": 2,
+    "stats": {
+      "score": 0,
+      "kills": 0,
+      "fired": 0,
+      "hit": 0,
+      "absorbed": 0,
+      "grazes": 0,
+      "damage": 0,
+      "maxChain": 0,
+      "couriers": 0,
+      "guards": 0,
+      "surges": 0,
+      "elapsed": 0.48829999999999857
+    },
+    "gates": [],
+    "boss": null,
+    "history": [],
+    "radio": "The heart is exposed. One last push. Bring everyone home."
+  },
+  "portrait": {
+    "bodyWidth": 390,
+    "width": 390,
+    "fields": [
+      {
+        "id": "hull-label",
+        "text": "6 / 6",
+        "font": "12px",
+        "box": {
+          "x": 61.453125,
+          "y": 71.25,
+          "width": 32.9375,
+          "height": 17
+        }
+      },
+      {
+        "id": "touch-guard-status",
+        "text": "READY",
+        "font": "12px",
+        "box": {
+          "x": 233,
+          "y": 388.5,
+          "width": 44,
+          "height": 17
+        }
+      },
+      {
+        "id": "touch-surge-status",
+        "text": "0%",
+        "font": "12px",
+        "box": {
+          "x": 329,
+          "y": 388.5,
+          "width": 44,
+          "height": 17
+        }
+      },
+      {
+        "id": "part-label",
+        "text": "01 / 03 · THE BREAKWATER",
+        "font": "10px",
+        "box": {
+          "x": 133.9375,
+          "y": 73.25,
+          "width": 136.734375,
+          "height": 14
+        }
+      },
+      {
+        "id": "weapon-label",
+        "text": "LANCE · LV 1",
+        "font": "10px",
+        "box": {
+          "x": 289.921875,
+          "y": 302.25,
+          "width": 78.046875,
+          "height": 24
+        }
+      }
+    ],
+    "duplicatesVisible": "none",
+    "controls": {
+      "x": 10,
+      "y": 335.5,
+      "width": 370,
+      "height": 100,
+      "top": 335.5,
+      "right": 380,
+      "bottom": 435.5,
+      "left": 10
+    }
+  },
+  "landscape": {
+    "bodyWidth": 844,
+    "width": 844,
+    "fields": [
+      {
+        "id": "hull-label",
+        "text": "6 / 6",
+        "font": "12px",
+        "box": {
+          "x": 187.03125,
+          "y": 62.953125,
+          "width": 32.9375,
+          "height": 17
+        }
+      },
+      {
+        "id": "touch-guard-status",
+        "text": "READY",
+        "font": "12px",
+        "box": {
+          "x": 779,
+          "y": 219.484375,
+          "width": 54,
+          "height": 17
+        }
+      },
+      {
+        "id": "touch-surge-status",
+        "text": "0%",
+        "font": "12px",
+        "box": {
+          "x": 779,
+          "y": 331.15625,
+          "width": 54,
+          "height": 17
+        }
+      },
+      {
+        "id": "part-label",
+        "text": "01 / 03 · THE BREAKWATER",
+        "font": "10px",
+        "box": {
+          "x": 329.4375,
+          "y": 64.953125,
+          "width": 163.125,
+          "height": 14
+        }
+      },
+      {
+        "id": "weapon-label",
+        "text": "LANCE · LV 1",
+        "font": "9px",
+        "box": {
+          "x": 626.796875,
+          "y": 340.03125,
+          "width": 79.25,
+          "height": 31
+        }
+      }
+    ],
+    "duplicatesVisible": "none",
+    "controls": {
+      "x": 6,
+      "y": 54,
+      "width": 832,
+      "height": 330,
+      "top": 54,
+      "right": 838,
+      "bottom": 384,
+      "left": 6
+    }
+  },
+  "errors": []
+}

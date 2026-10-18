@@ -1,0 +1,441 @@
+{
+  "checks": [
+    "one projectile resolves one hit/kill; duplicate death awards nothing",
+    "Tideguard catches shots, respects cooldown, and releases a countershot",
+    "post-hit invulnerability and real scene pause/resume",
+    "auto-fire focus preserves pause shortcut; harbor return resets pause label",
+    "pressure gate blocks fire; opening is safe; scrape protection and one-time clean-passage reward work",
+    "boss reinforcements and defensive scoring have finite reward budgets",
+    "six restarts retain one handler, stable sound pool, one canvas; practice cannot change full-run records",
+    "Surge finishing the guardian stops the director in the same frame; no replacement boss spawns",
+    "part-03 practice uses CLEAR, one attainable relay, scoped advice, and replays the same route",
+    "debrief reports all three parts; practice from part 01 keeps separate sector records and cannot set a full-run best",
+    "pilot/lance: full three-part mission clear using input only",
+    "pilot/fan: full three-part mission clear using input only",
+    "ace/lance: full three-part mission clear using input only",
+    "390px layout, touch launch/guard/pause/resume",
+    "844×390 landscape launch fits; touch controls hide in harbor; focus and header pause work"
+  ],
+  "errors": [],
+  "runs": [
+    {
+      "difficulty": "pilot",
+      "weapon": "lance",
+      "clock": 183.33330666670471,
+      "stage": 2,
+      "hull": 6,
+      "ending": true,
+      "completed": true,
+      "stats": {
+        "score": 120670,
+        "kills": 112,
+        "fired": 4160,
+        "hit": 1820,
+        "absorbed": 13,
+        "grazes": 0,
+        "damage": 0,
+        "maxChain": 35,
+        "couriers": 3,
+        "guards": 9,
+        "surges": 6,
+        "elapsed": 183.33330666670471
+      },
+      "sectors": [
+        {
+          "stage": 0,
+          "score": 15190,
+          "damage": 0,
+          "relays": 1,
+          "catches": 0,
+          "chain": 29,
+          "elapsed": 43.016639999998844,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        },
+        {
+          "stage": 1,
+          "score": 41905,
+          "damage": 0,
+          "relays": 1,
+          "catches": 7,
+          "chain": 35,
+          "elapsed": 54.51666666666357,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        },
+        {
+          "stage": 2,
+          "score": 63575,
+          "damage": 0,
+          "relays": 1,
+          "catches": 6,
+          "chain": 27,
+          "elapsed": 80.76666666670926,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        }
+      ],
+      "observed": [
+        {
+          "key": "0:waves:false",
+          "clock": 0.049973333333333377,
+          "hull": 6,
+          "score": 0
+        },
+        {
+          "key": "1:waves:false",
+          "clock": 45.53330666666537,
+          "hull": 6,
+          "score": 15190
+        },
+        {
+          "key": "1:hivewhale:false",
+          "clock": 79.5499733333301,
+          "hull": 6,
+          "score": 27185
+        },
+        {
+          "key": "1:hivewhale:true",
+          "clock": 93.14997333332933,
+          "hull": 6,
+          "score": 28090
+        },
+        {
+          "key": "1:waves:false",
+          "clock": 100.0666399999956,
+          "hull": 6,
+          "score": 57095
+        },
+        {
+          "key": "2:waves:false",
+          "clock": 102.56663999999546,
+          "hull": 6,
+          "score": 57095
+        },
+        {
+          "key": "2:bulbwhale:false",
+          "clock": 147.58330666667626,
+          "hull": 6,
+          "score": 71085
+        },
+        {
+          "key": "2:bulbwhale:true",
+          "clock": 163.56664000002232,
+          "hull": 6,
+          "score": 73110
+        }
+      ],
+      "attacks": [
+        "brood:volley",
+        "brood:release",
+        "brood:charge",
+        "brood:phase2",
+        "brood:volley",
+        "brood:release",
+        "warden:conduits",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:phase2",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open"
+      ]
+    },
+    {
+      "difficulty": "pilot",
+      "weapon": "fan",
+      "clock": 183.1500000000379,
+      "stage": 2,
+      "hull": 5,
+      "ending": true,
+      "completed": true,
+      "stats": {
+        "score": 122390,
+        "kills": 125,
+        "fired": 6809,
+        "hit": 2015,
+        "absorbed": 13,
+        "grazes": 0,
+        "damage": 1,
+        "maxChain": 44,
+        "couriers": 3,
+        "guards": 11,
+        "surges": 7,
+        "elapsed": 183.1500000000379
+      },
+      "sectors": [
+        {
+          "stage": 0,
+          "score": 9705,
+          "damage": 0,
+          "relays": 1,
+          "catches": 1,
+          "chain": 14,
+          "elapsed": 43.01666666666551,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        },
+        {
+          "stage": 1,
+          "score": 46670,
+          "damage": 0,
+          "relays": 1,
+          "catches": 7,
+          "chain": 44,
+          "elapsed": 63.64999999999639,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        },
+        {
+          "stage": 2,
+          "score": 66015,
+          "damage": 1,
+          "relays": 1,
+          "catches": 5,
+          "chain": 28,
+          "elapsed": 71.45000000004295,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        }
+      ],
+      "observed": [
+        {
+          "key": "0:waves:false",
+          "clock": 0.033333333333333326,
+          "hull": 6,
+          "score": 0
+        },
+        {
+          "key": "1:waves:false",
+          "clock": 45.53333333333203,
+          "hull": 6,
+          "score": 9705
+        },
+        {
+          "key": "1:hivewhale:false",
+          "clock": 79.54999999999677,
+          "hull": 6,
+          "score": 24750
+        },
+        {
+          "key": "1:hivewhale:true",
+          "clock": 95.31666666666254,
+          "hull": 6,
+          "score": 26355
+        },
+        {
+          "key": "1:waves:false",
+          "clock": 109.19999999999509,
+          "hull": 6,
+          "score": 56375
+        },
+        {
+          "key": "2:waves:false",
+          "clock": 111.69999999999494,
+          "hull": 6,
+          "score": 56375
+        },
+        {
+          "key": "2:bulbwhale:false",
+          "clock": 156.71666666668352,
+          "hull": 5,
+          "score": 73015
+        },
+        {
+          "key": "2:bulbwhale:true",
+          "clock": 165.00000000002345,
+          "hull": 5,
+          "score": 74465
+        }
+      ],
+      "attacks": [
+        "brood:volley",
+        "brood:release",
+        "brood:charge",
+        "brood:volley",
+        "brood:phase2",
+        "brood:release",
+        "brood:charge",
+        "brood:volley",
+        "brood:release",
+        "warden:conduits",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:phase2",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain",
+        "warden:mines",
+        "warden:conduits",
+        "warden:vents",
+        "warden:core-open",
+        "warden:curtain"
+      ]
+    },
+    {
+      "difficulty": "ace",
+      "weapon": "lance",
+      "clock": 203.24997333338723,
+      "stage": 2,
+      "hull": 4,
+      "ending": true,
+      "completed": true,
+      "stats": {
+        "score": 107659,
+        "kills": 114,
+        "fired": 4665,
+        "hit": 2197,
+        "absorbed": 21,
+        "grazes": 0,
+        "damage": 4,
+        "maxChain": 29,
+        "couriers": 3,
+        "guards": 15,
+        "surges": 6,
+        "elapsed": 203.24997333338723
+      },
+      "sectors": [
+        {
+          "stage": 0,
+          "score": 19299,
+          "damage": 0,
+          "relays": 1,
+          "catches": 0,
+          "chain": 29,
+          "elapsed": 43.016639999998844,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        },
+        {
+          "stage": 1,
+          "score": 22903,
+          "damage": 2,
+          "relays": 1,
+          "catches": 8,
+          "chain": 21,
+          "elapsed": 60.41666666666323,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        },
+        {
+          "stage": 2,
+          "score": 65457,
+          "damage": 2,
+          "relays": 1,
+          "catches": 13,
+          "chain": 22,
+          "elapsed": 94.78333333339211,
+          "passed": true,
+          "best": 0,
+          "clean": false
+        }
+      ],
+      "observed": [
+        {
+          "key": "0:waves:false",
+          "clock": 0.049973333333333314,
+          "hull": 5,
+          "score": 0
+        },
+        {
+          "key": "1:waves:false",
+          "clock": 45.53330666666537,
+          "hull": 5,
+          "score": 19299
+        },
+        {
+          "key": "1:hivewhale:false",
+          "clock": 79.5499733333301,
+          "hull": 5,
+          "score": 30997
+        },
+        {
+          "key": "1:hivewhale:true",
+          "clock": 98.08330666666238,
+          "hull": 4,
+          "score": 31477
+        },
+        {
+          "key": "1:waves:false",
+          "clock": 105.96663999999527,
+          "hull": 5,
+          "score": 42202
+        },
+        {
+          "key": "2:waves:false",
+          "clock": 108.46663999999512,
+          "hull": 5,
+          "score": 42202
+        },
+        {
+          "key": "2:bulbwhale:false",
+          "clock": 153.48330666668096,
+          "hull": 4,
+          "score": 59551
+        },
+        {
+          "key": "2:bulbwhale:true",
+          "clock": 173.34997333336344,
+          "hull": 4,
+          "score": 61600
+        }
+      ],
+      "attacks": [
+        "brood:volley",
+        "brood:release",
+        "brood:charge",
+        "brood:volley",
+        "brood:phase2",
+        "brood:release",
+        "brood:charge",
+        "brood:volley",
+        "warden:conduits",
+        "warden:curtain",
+        "warden:core-open",
+        "warden:mines",
+        "warden:vents",
+        "warden:conduits",
+        "warden:curtain",
+        "warden:core-open",
+        "warden:mines",
+        "warden:phase2",
+        "warden:conduits",
+        "warden:vents",
+        "warden:curtain",
+        "warden:core-open",
+        "warden:mines",
+        "warden:vents",
+        "warden:conduits",
+        "warden:curtain",
+        "warden:core-open",
+        "warden:mines",
+        "warden:vents",
+        "warden:conduits",
+        "warden:curtain",
+        "warden:core-open"
+      ]
+    }
+  ],
+  "note": "Input-only deterministic simulations are not human playtests or performance benchmarks."
+}

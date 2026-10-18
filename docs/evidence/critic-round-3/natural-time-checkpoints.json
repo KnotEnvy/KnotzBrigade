@@ -1,0 +1,154 @@
+{
+  "results": [
+    {
+      "clock": 15.535729999999996,
+      "actTime": 15.535729999999996,
+      "stage": 1,
+      "hull": 4,
+      "stats": {
+        "score": 230,
+        "kills": 2,
+        "fired": 0,
+        "hit": 0,
+        "absorbed": 0,
+        "grazes": 3,
+        "damage": 2,
+        "maxChain": 1,
+        "couriers": 0,
+        "guards": 0,
+        "surges": 0,
+        "elapsed": 15.535729999999996
+      },
+      "gates": [
+        {
+          "x": 789.6999999999995,
+          "y": 320,
+          "gap": 250,
+          "hit": false,
+          "passed": false
+        }
+      ],
+      "enemies": [
+        {
+          "kind": "moonfish",
+          "x": 922,
+          "y": 350,
+          "age": 4.559809999999999
+        },
+        {
+          "kind": "drone",
+          "x": 711.5833333333305,
+          "y": 245.3842310883159,
+          "age": 3.0432000000000006
+        },
+        {
+          "kind": "drone",
+          "x": 871.5833333333254,
+          "y": 464.6140828608924,
+          "age": 3.0432000000000006
+        },
+        {
+          "kind": "drone",
+          "x": 951.5833333333227,
+          "y": 464.6160754663738,
+          "age": 3.0432000000000006
+        },
+        {
+          "kind": "mine",
+          "x": 935.75,
+          "y": 260,
+          "age": 2.7498799999999988
+        },
+        {
+          "kind": "angler1",
+          "x": 648.0000000000252,
+          "y": 200,
+          "age": 9.567940000000007
+        },
+        {
+          "kind": "angler1",
+          "x": 712.0000000000281,
+          "y": 490,
+          "age": 9.567940000000007
+        },
+        {
+          "kind": "mine",
+          "x": 895.75,
+          "y": 350,
+          "age": 2.711539999999999
+        }
+      ],
+      "lasers": []
+    },
+    {
+      "clock": 15.584370000000007,
+      "actTime": 15.584370000000007,
+      "stage": 2,
+      "hull": 3,
+      "stats": {
+        "score": 640,
+        "kills": 5,
+        "fired": 0,
+        "hit": 0,
+        "absorbed": 0,
+        "grazes": 0,
+        "damage": 3,
+        "maxChain": 5,
+        "couriers": 0,
+        "guards": 0,
+        "surges": 0,
+        "elapsed": 15.584370000000007
+      },
+      "gates": [
+        {
+          "x": 266.2246000000002,
+          "y": 440,
+          "gap": 220,
+          "hit": false,
+          "passed": false
+        }
+      ],
+      "enemies": [
+        {
+          "kind": "stalker",
+          "x": 331.33333333333184,
+          "y": 151.98317448748756,
+          "age": 3.5931800000000007
+        },
+        {
+          "kind": "stalker",
+          "x": 411.3333333333312,
+          "y": 151.98317486141107,
+          "age": 3.5931800000000007
+        },
+        {
+          "kind": "stalker",
+          "x": 491.3333333333304,
+          "y": 558.0168254905166,
+          "age": 3.5931800000000007
+        },
+        {
+          "kind": "mine",
+          "x": 650,
+          "y": 400,
+          "age": 2.4298699999999998
+        },
+        {
+          "kind": "mine",
+          "x": 610,
+          "y": 490,
+          "age": 2.4298699999999998
+        },
+        {
+          "kind": "moonfish",
+          "x": 639,
+          "y": 490,
+          "age": 8.601289999999995
+        }
+      ],
+      "lasers": []
+    }
+  ],
+  "errors": [],
+  "note": "Only direct checkpoint scene start; ordinary rendered real-time updates, auto-fire off, no clock, hull, damage, wave or score changes and no steering."
+}
